@@ -32,8 +32,20 @@
     /* ============================================= */
     /* HEADER */
     /* ============================================= */
-    .header--mini {
+    .header--mini.main--desktop {
         display: none;
+    }
+    .header--mini.main--mobile {
+        padding: 1rem 2rem;
+        display: flex;
+    }
+    .header-icon-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-icon {
+        font-size: 3.2rem;
     }
 
 

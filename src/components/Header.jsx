@@ -7,6 +7,7 @@ import LogoImgWhite from '../assets/images/logo/logo-white.png'
 import { IoMoon, IoSunny } from "react-icons/io5";
 import { useDataContext } from "../context/DataContext";
 import { useWindowScroll } from 'react-use'
+import { HiOutlineMenuAlt1 } from "react-icons/hi";
 
 
 function Header() {
@@ -65,36 +66,55 @@ function Header() {
             </header>
 
             {showMini && (
-                <header className="header--mini">
-                    <ul className="nav--list">
-                        <li className="nav--item">
-                            <NavLink to="" className="nav--active">Home</NavLink>
-                        </li>
-                        <li className="nav--item">
-                            <NavLink to="">About us</NavLink>
-                        </li>
-                        <li className="nav--item">
-                            <NavLink to="">What we do</NavLink>
-                        </li>
-                        <li className="nav--item">
-                            <NavLink to="">Our Team</NavLink>
-                        </li>
-                        <li className="nav--item">
-                            <NavLink to="">Contact</NavLink>
-                        </li>
-                    </ul>
+                <>
+                    <header className="header--mini main--desktop">
+                        <ul className="nav--list">
+                            <li className="nav--item">
+                                <NavLink to="" className="nav--active">Home</NavLink>
+                            </li>
+                            <li className="nav--item">
+                                <NavLink to="">About us</NavLink>
+                            </li>
+                            <li className="nav--item">
+                                <NavLink to="">What we do</NavLink>
+                            </li>
+                            <li className="nav--item">
+                                <NavLink to="">Our Team</NavLink>
+                            </li>
+                            <li className="nav--item">
+                                <NavLink to="">Contact</NavLink>
+                            </li>
+                        </ul>
 
-                    <div className="nav--others">
-                        <button className="mode__btn" onClick={onMode}>
-                            {!isDarkMode ? (
-                                <IoMoon className="icon" />
-                            ) : (
-                                <IoSunny className="icon" />
-                            )}
-                        </button>
-                        <NavLink to="/" className="nav--btn btn"> <HiEnvelope  /> Let's Talk</NavLink>
-                    </div>
-                </header>
+                        <div className="nav--others">
+                            <button className="mode__btn" onClick={onMode}>
+                                {!isDarkMode ? (
+                                    <IoMoon className="icon" />
+                                ) : (
+                                    <IoSunny className="icon" />
+                                )}
+                            </button>
+                            <NavLink to="/" className="nav--btn btn"> <HiEnvelope  /> Let's Talk</NavLink>
+                        </div>
+                    </header>
+
+
+                    <header className="header--mini main--mobile">
+                        <span className="header-icon-box">
+                            <HiOutlineMenuAlt1 className="header-icon" />
+                        </span>
+                        <div className="nav--others">
+                            <button className="mode__btn" onClick={onMode}>
+                                {!isDarkMode ? (
+                                    <IoMoon className="icon" />
+                                ) : (
+                                    <IoSunny className="icon" />
+                                )}
+                            </button>
+                            <NavLink to="/" className="nav--btn btn"> <HiEnvelope  /> Let's Talk</NavLink>
+                        </div>
+                    </header>
+                </>
             )}
         </>
     )

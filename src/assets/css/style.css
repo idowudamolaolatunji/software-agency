@@ -105,7 +105,6 @@ a.nav--btn {
     font-size: 1.7rem;
     color: var(--sub-btn-text);
 }
-
 .header--mini {
     min-width: max-content;
     position: fixed;
@@ -151,6 +150,11 @@ a.nav--btn {
 .mode__btn .icon {
     font-size: 1.6rem;
 }
+.header--mini.main--mobile {
+    display: none;
+}
+
+
 
 
 /* ============================================= */
