@@ -1,0 +1,212 @@
+
+
+/* 950px === 95rem === 59.375em */
+@media screen and (max-width: 59.375em) {
+
+    /* ============================================= */
+    /* HERO SECTION */
+    /* ============================================= */
+    .hero--container {
+        gap: 4.8rem;
+    }
+    .hero--heading, .hero--sub {
+        font-size: 3.8rem;
+    }
+
+    /* ============================================= */
+    /* SERVICES SECTION */
+    /* ============================================= */
+
+    .service--container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+
+
+/* 650px === 65rem === 40.625em */
+@media screen and (max-width: 40.625em) {
+
+    /* ============================================= */
+    /* HEADER */
+    /* ============================================= */
+    .header--mini {
+        display: none;
+    }
+
+
+    /* ============================================= */
+    /* HERO SECTION */
+    /* ============================================= */
+        
+
+    /* ====================================== */
+    /* PORTFOLIO SECTION */
+    /* ====================================== */
+    .portfolio--container {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+}
+
+
+/* 600px === 60rem === 37.5em */
+@media screen and (max-width: 37.5em) {
+
+    .hero--image-box, .hero--img {
+        height: auto;
+    }
+}
+
+
+/* 450px === 45rem === 28.125em */
+@media screen and (max-width: 28.125em) {
+    .header {
+        display: none;
+    }
+    /* ============================================= */
+    /* HERO SECTION */
+    /* ============================================= */
+    .hero--container {
+        grid-template-columns: 1fr;
+        /* display: flex;
+        flex-direction: column-reverse; */
+    }
+    .hero--container {
+        gap: 2.4rem;
+    }
+    /* .hero--image-box {} */
+    .hero--heading, .hero--sub {
+        font-size: 4rem;
+    }
+    .hero--heading {
+        margin-bottom: 2.4rem;
+    }
+    .hero--text {
+        margin-bottom: 2.1rem;
+    }
+    .hero--action {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .hero--info {
+        margin-top: -.6rem;
+        display: block;
+        position: static;
+        transform: none;
+        box-shadow: none;
+        padding: 0;
+    }
+
+
+
+    .about__section {
+        padding-top: 8rem;
+    }
+    .about--container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 4rem;
+    }
+    .about--text-box {
+        margin-left: 0;
+    }
+    .about--text-box .section__heading {
+        margin-bottom: 0;
+    }
+    .about--image-box {
+        display: grid;
+        grid-template-columns: 1.1fr 1fr;
+        border: .24rem solid var(--main-border-color);
+        border-radius: .3rem;
+    }
+    .about--image-box img {
+        position: static;
+        width: 100%;
+        min-height: auto;
+        height: 100%;
+        object-fit: cover;
+        border: none;
+        border-radius: 0;
+    }
+    img.img--1 {
+        object-position: right;
+    }
+    img.img--3 {
+        grid-column: 1 / -1;
+        height: 14rem;
+    }
+
+
+    .service__section .section__heading {
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+    .service--container, .how--container {
+        grid-template-columns: 1fr;
+    }
+
+    .how__section {
+        clip-path: none;
+    }
+
+
+
+    .portfolio__section {
+        background-attachment: fixed;
+    }
+    .portfolio__figure {
+        border-width: .16rem;
+    }
+    .portfolio__details {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    .portfolio__figure:hover .portfolio__img {
+        transform: scale(1.15);
+        animation: scroll-up-query 2s ease-in-out;
+        animation-fill-mode: forwards;
+        animation-delay: .5s;
+    }
+
+    @keyframes scroll-up-query {
+        from {
+            transform: scale(1.15) translateY(0);
+        }
+        to {
+            transform: scale(1.15) translateY(-15%);
+        }
+    }
+}
+
+
+
+/* 400px === 40rem === 25em */
+@media screen and (max-width: 25em) {
+    .hero--heading, .hero--sub {
+        font-size: 3.4rem;
+    }
+    .hero--text {
+        font-size: 1.6rem;
+    }
+}
+
+
+/* 380px === 38rem === 23.75em */
+@media screen and (max-width: 23.75em) {
+    .hero--heading, .hero--sub {
+        font-size: 3.2rem;
+    }
+}
+/* 360px === 36rem === 22.5em */
+@media screen and (max-width: 22.8em) {
+    .hero--heading, .hero--sub {
+        font-size: 3rem;
+    }
+}
