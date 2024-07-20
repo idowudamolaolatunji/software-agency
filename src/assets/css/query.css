@@ -32,21 +32,42 @@
     /* ============================================= */
     /* HEADER */
     /* ============================================= */
-    .header--mini.main--desktop {
+    .header--mini.main--desktop, .header.main--desktop {
         display: none;
     }
-    .header--mini.main--mobile {
-        padding: 1rem 2rem;
+    .header--mini.main--mobile, .header.main--mobile {
         display: flex;
     }
-    .header-icon-box {
+    .header.main--mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2.4rem;
+    }
+    .header--logo {
+        width: 15rem;
+    }
+    .header--mini.main--mobile {
+        padding: 1.4rem 2rem;
+    }
+    .header--mini .nav--btn {
+        padding: 1.2rem 1.6rem;
+    }
+    .header--mini .mode__btn {
+        padding: 1rem 1.4rem;
+    }
+    .header--mini .header-menu {
+        font-size: 3.48rem;
+    }
+    .header-menu-box {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .header-icon {
+    .header-menu {
         font-size: 3.2rem;
     }
+    
 
 
     /* ============================================= */
@@ -76,7 +97,7 @@
 
 /* 450px === 45rem === 28.125em */
 @media screen and (max-width: 28.125em) {
-    .header {
+    .header, a.disp {
         display: none;
     }
     /* ============================================= */
@@ -84,13 +105,10 @@
     /* ============================================= */
     .hero--container {
         grid-template-columns: 1fr;
-        /* display: flex;
-        flex-direction: column-reverse; */
     }
     .hero--container {
         gap: 2.4rem;
     }
-    /* .hero--image-box {} */
     .hero--heading, .hero--sub {
         font-size: 4rem;
     }
@@ -202,7 +220,7 @@
 /* 400px === 40rem === 25em */
 @media screen and (max-width: 25em) {
     .hero--heading, .hero--sub {
-        font-size: 3.4rem;
+        font-size: 3.3rem;
     }
     .hero--text {
         font-size: 1.6rem;

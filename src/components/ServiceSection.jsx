@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { MdOutlineArrowOutward } from 'react-icons/md';
 import { SiDatabricks } from 'react-icons/si';
-import { Link } from 'react-router-dom';
-
 import TextTransition, { presets } from 'react-text-transition';
 import SectionFigure from './SectionFigure';
+
+
+import ui_ux from '../assets/images/png-icons/modul-lettering-ux-slash-ui-with-toolbar-and-web-design-interface-text.png'
+
 const TEXTS = ['Tech', 'Startup', 'Business', 'Software'];
 
 function ServiceSection() {
@@ -25,7 +26,7 @@ function ServiceSection() {
             <div className="section__heading--box">
                 <h2 className="section__heading">
                     Our Comprehensive
-                    <TextTransition springConfig={presets.wobbly} className='text--slide' inline={true}>{TEXTS[index % TEXTS.length]}</TextTransition>
+                    <TextTransition springConfig={presets.wobbly} inline={true} style={{ color: "#6b18eb" }}>{TEXTS[index % TEXTS.length]}</TextTransition>
                     Solution Service
                 </h2>
                 <p className="section__text">Lorem, ipsum dolor sit Vitae eveniet aliquid maiores ipsum blanditiis explicabo amet consectetur adipisicing elit. Vitae eveniet aliquid maiores ipsum blanditiis explicabo!</p>
@@ -36,9 +37,8 @@ function ServiceSection() {
                     type="service"
                     title="IT consulting & supports."
                     content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. psum dolor sit amet consectetur adipisicing."
-                >
-                    <SiDatabricks className='icon' />
-                </SectionFigure>
+                    image={ui_ux}
+                />
                 <SectionFigure
                     type="service"
                     title="Data analytics & business intelligence."
@@ -50,9 +50,8 @@ function ServiceSection() {
                     type="service"
                     title="User interface designs & wireframe."
                     content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. psum dolor sit amet consectetur adipisicing."
-                >
-                    <SiDatabricks className='icon' />
-                </SectionFigure>
+                    image={ui_ux}
+                />
                 <SectionFigure
                     type="service"
                     title="Web & mobile app (software) developments."

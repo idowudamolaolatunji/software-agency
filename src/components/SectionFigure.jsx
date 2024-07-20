@@ -2,7 +2,7 @@ import React from 'react'
 import { MdOutlineArrowOutward } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 
-function SectionFigure({ type, subtitle, title, content, link="/", children }) {
+function SectionFigure({ type, subtitle, title, content, link="/", image }) {
   return (
     <>
         {type === "how" && (
@@ -16,7 +16,7 @@ function SectionFigure({ type, subtitle, title, content, link="/", children }) {
         {type === "service" && (
             <figure className="service__figure">
                 <span className="figure--icon">
-                    {children}
+                    <img src={image} alt={title} className='img' />
                 </span>
                 <h4 className="figure--title">{title}</h4>
                 <p className="figure--text">{content}</p>

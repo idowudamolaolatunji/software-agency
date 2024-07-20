@@ -102,6 +102,7 @@ input::-webkit-inner-spin-button {
 	font-weight: 600;
 	text-transform: capitalize;
 	margin-bottom: 1.8rem;
+	line-height: 1.15;
 }
 .section__text {
 	font-size: 1.4rem;
@@ -118,9 +119,6 @@ input::-webkit-inner-spin-button {
 }
 .icon {
 	font-size: 2rem;
-}
-.text--slide {
-	color: #6b18eb;
 }
 .arrow-to-top {
 	display: inline-flex;
@@ -183,6 +181,13 @@ input::-webkit-inner-spin-button {
 }
 
 
+
+
+
+
+/* ============================================= */
+/* GENERAL QUERY STYLES */
+/* ============================================= */
 @media screen and (max-width: 600px) {
 	html {
 		font-size: 60.5%;

@@ -27,7 +27,7 @@ function Header() {
 
     return (
         <>
-            <header className="header">
+            <header className="header main--desktop">
                 <div className="header--logo">
                     <img src={isDarkMode ? LogoImgWhite : LogoImg} alt="buildspire" className="logo" />
                 </div>
@@ -65,6 +65,29 @@ function Header() {
 
             </header>
 
+
+            <header className="header main--mobile">
+                <div className="header--logo">
+                    <img src={isDarkMode ? LogoImgWhite : LogoImg} alt="buildspire" className="logo" />
+                </div>
+
+                <div className="nav--others">
+                    <button className="mode__btn" onClick={onMode}>
+                        {!isDarkMode ? (
+                            <IoMoon className="icon" />
+                        ) : (
+                            <IoSunny className="icon" />
+                        )}
+                    </button>
+
+                    <NavLink to="" className="nav--btn btn disp"> <HiEnvelope  /> Let's Talk</NavLink>
+                    <span className="header-menu-box">
+                        <HiOutlineMenuAlt1 className="header-menu" />
+                    </span>
+                </div>
+            </header>
+
+
             {showMini && (
                 <>
                     <header className="header--mini main--desktop">
@@ -100,8 +123,8 @@ function Header() {
 
 
                     <header className="header--mini main--mobile">
-                        <span className="header-icon-box">
-                            <HiOutlineMenuAlt1 className="header-icon" />
+                        <span className="header-menu-box">
+                            <HiOutlineMenuAlt1 className="header-menu" />
                         </span>
                         <div className="nav--others">
                             <button className="mode__btn" onClick={onMode}>

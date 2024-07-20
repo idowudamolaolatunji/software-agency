@@ -340,7 +340,6 @@ img.img--3 {
 .service__section .section__heading {
     display: inline-flex;
     align-items: center;
-    gap: .64rem;
     flex-wrap: wrap;
 }
 .service__figure {
@@ -381,8 +380,8 @@ color: var(--main-color);
     background-color: #eee;
     margin-bottom: 2rem;
 }
-.figure--icon .icon {
-    font-size: 2.4rem;
+.figure--icon .img {
+    width: 80%;
 }
 
 .figure--title {
