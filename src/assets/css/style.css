@@ -170,7 +170,7 @@ a.nav--btn {
     left: 0;
     bottom: 0;
     height: 100vh;
-    width: 34rem;
+    min-width: 35rem;
     background-color: var(--background-color);
     animation: menu-slide-in .25s ease-out;
     padding: 2.8rem;
@@ -180,7 +180,7 @@ a.nav--btn {
 
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 6.2rem;
     overflow: hidden;
 }
 .mobile-close {
@@ -207,6 +207,7 @@ a.nav--btn {
     flex-direction: column;
     align-items: flex-start;
     font-size: 1.68rem;
+    gap: 4.8rem;
 }
 
 
