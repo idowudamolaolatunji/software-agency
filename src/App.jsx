@@ -14,7 +14,6 @@ const Contact = lazy(() => import('../src/pages/contact'));
 const Portfolio = lazy(() => import('../src/pages/portfolio'));
 
 
-
 function App() {
     const [showArrowToTop, setShowArrowToTop] = useState(false);
     const {y} = useWindowScroll();

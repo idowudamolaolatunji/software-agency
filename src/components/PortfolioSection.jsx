@@ -13,11 +13,10 @@ import { useWindowSize } from 'react-use';
 function PortfolioSection({ page }) {
     const { width } = useWindowSize();
 
-
   return (
    <section className="section portfolio__section" style={{
     ...(page && { paddingTop: "6.2rem" }),
-    ...(width > 650 && { clipPath: "polygon(0 4.5%, 100% 0%, 100% 100%, 0 100%)" }),
+    ...((width > 650 && page) && { clipPath: "polygon(0 4.5%, 100% 0%, 100% 100%, 0 100%)" }),
   }}>
         <div className="container">
             <div className="section__heading--box">
