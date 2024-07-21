@@ -10,7 +10,7 @@ function CtaSection() {
                     <h4 className="cta--heading">Conatct Us! <br /> Let's start planning your next project</h4>
                     <p className="cta--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas ad temporibus. Error officiis dipisci eos recusandae accusamus sed mollitia voluptatum tempora.</p>
 
-                    <Link to="/" className='cta--btn btn'> <HiEnvelope /> Let's Talk</Link>
+                    <Link to="/contact" className='cta--btn btn'> <HiEnvelope /> Let's Talk</Link>
                 </div>
             </div>
         </section>

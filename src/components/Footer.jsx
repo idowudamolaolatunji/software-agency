@@ -27,43 +27,43 @@ function Footer() {
                     <p className="footer--heading">Links</p>
                     <ul className='footer--lists'>
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/">About Us</Link></li>
-                        <li><Link to="/">What we do</Link></li>
-                        <li><Link to="/">Portfolio</Link></li>
+                        <li><Link to="/about">About Us</Link></li>
+                        <li><Link to="/services">What we do</Link></li>
+                        <li><Link to="/portfolio">Portfolio</Link></li>
                     </ul>
                 </div>
                 <div className='footer--item'>
                     <p className="footer--heading">Company</p>
                     <ul className='footer--lists'>
-                        <li><Link to="/">Our Team</Link></li>
-                        <li><Link to="/">Our Process</Link></li>
-                        <li><Link to="/">Our Terms</Link></li>
-                        <li><Link to="/">Career</Link></li>
+                        <li><Link to="/teams">Our Team</Link></li>
+                        <li><Link to="/steps">Our Process</Link></li>
+                        <li><Link to="/terms">Our Terms</Link></li>
+                        <li><Link to="/career">Career</Link></li>
                     </ul>
                 </div>
                 <div className='footer--item'>
                     <p className="footer--heading">Contacts & Socials</p>
                     <ul className="footer--lists">
                         <span className='footer--socials'>
-                            <Link to="/">
+                            <Link to="https://www.linkedin.com/" target='_blank'>
                                 <IoLogoLinkedin className='icon' />
                             </Link>
-                            <Link to="/">
+                            <Link to="https://www.instagram.com/" target='_blank'>
                                 <IoLogoInstagram className="icon" />
                             </Link>
-                            <Link to="/">
+                            <Link to="https://www.x.com/" target='_blank'>
                                 <RiTwitterXLine className="icon" />
                             </Link>
                         </span>
                         
                         <li>
-                            <Link to="mailto:buildspire@gmail.com">
+                            <Link to="tel:+2349057643470">
                                 <RiPhoneFill className="icon" />
-                                <p>+234 905 7643 479</p>
+                                <p>+234 905 7643 470</p>
                             </Link>
                         </li>
                         <li>
-                            <Link to="tel:+2349057643470">
+                            <Link to="mailto:buildspire@gmail.com">
                                 <SiGmail className="icon" />
                                 <p>buildspire@gmail.com</p>
                             </Link>

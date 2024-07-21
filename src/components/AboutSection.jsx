@@ -37,7 +37,7 @@ function AboutSection({ page }) {
                     <p>websh3 is an experience, not a conference. Our interactive events seek to connect teams, ignite partnerships and drive funding to projects moving the needle.</p>
                 </span>
 
-                <Link to="/" className='about--btn btn'>Learn More <IoIosArrowForward className="icon" /></Link>
+                <Link to="/about" className='about--btn btn'>Learn More <IoIosArrowForward className="icon" /></Link>
             </div>
 
             

@@ -12,6 +12,9 @@ const Services = lazy(() => import('../src/pages/services'));
 const Steps = lazy(() => import('../src/pages/steps'));
 const Contact = lazy(() => import('../src/pages/contact'));
 const Portfolio = lazy(() => import('../src/pages/portfolio'));
+const Teams = lazy(() => import('../src/pages/teams'));
+const Career = lazy(() => import('../src/pages/career'));
+const Terms = lazy(() => import('../src/pages/terms'));
 
 
 function App() {
@@ -50,6 +53,9 @@ function App() {
                         <Route path="/steps" element={<Steps />}></Route>
                         <Route path="/portfolio" element={<Portfolio />}></Route>
                         <Route path="/contact" element={<Contact />}></Route>
+                        <Route path="/teams" element={<Teams />}></Route>
+                        <Route path="/terms" element={<Terms />}></Route>
+                        <Route path="/career" element={<Career />}></Route>
                     </Routes>
                 </BrowserRouter>
             </Suspense>

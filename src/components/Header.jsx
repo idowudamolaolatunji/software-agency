@@ -197,11 +197,11 @@ function Header() {
                             </div>
 
                             <div className="sidebar--end">
-                                <Link to="/"><IoLogoLinkedin className="icon" /></Link>
-                                <Link to="/"><IoLogoInstagram className="icon" /></Link>
-                                <Link to="/"><RiTwitterXLine className="icon" /></Link>
-                                <Link to="/"><SiGmail className="icon" /></Link>
-                                <Link to="/"><RiPhoneFill className="icon" /></Link>
+                                <Link to="https://www.linkedin.com/" target='_blank'><IoLogoLinkedin className="icon" /></Link>
+                                <Link to="https://www.instagram.com/" target='_blank'><IoLogoInstagram className="icon" /></Link>
+                                <Link to="https://www.x.com/" target='_blank'><RiTwitterXLine className="icon" /></Link>
+                                <Link to="mailto:buildspire@gmail.com"><SiGmail className="icon" /></Link>
+                                <Link to="tel:+2349057643470"><RiPhoneFill className="icon" /></Link>
                             </div>
                         </menu>
                     </>

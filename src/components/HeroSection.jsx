@@ -43,7 +43,7 @@ function HeroSection() {
                     <p className="hero--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolore hic saepe dicta tempore libero illo illum dolores alias nemo nobis delectus eveniet minima.</p>
 
                     <div className="hero--action">
-                        <Link to="/" className="hero--link">
+                        <Link to="/services" className="hero--link">
                             Explore
                             <MdOutlineExplore className="icon" />
                         </Link>
@@ -84,7 +84,7 @@ function HeroSection() {
                     </div>
 
                     <span>
-                        15+ people including <strong style={{color: "#6b18eb" }}>Top</strong> brands are already using our services
+                        11+ people including <strong style={{color: "#6b18eb" }}>Top</strong> brands are already using our services
                     </span>
                 </div>
             </div>
