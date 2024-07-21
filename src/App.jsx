@@ -11,6 +11,7 @@ const About = lazy(() => import('../src/pages/about'));
 const Services = lazy(() => import('../src/pages/services'));
 const Steps = lazy(() => import('../src/pages/steps'));
 const Contact = lazy(() => import('../src/pages/contact'));
+const Portfolio = lazy(() => import('../src/pages/portfolio'));
 
 
 
@@ -44,6 +45,7 @@ function App() {
                         <Route path="/about" element={<About />}></Route>
                         <Route path="/services" element={<Services />}></Route>
                         <Route path="/steps" element={<Steps />}></Route>
+                        <Route path="/portfolio" element={<Portfolio />}></Route>
                         <Route path="/contact" element={<Contact />}></Route>
                     </Routes>
                 </BrowserRouter>
