@@ -226,7 +226,7 @@ input::-webkit-inner-spin-button {
 	.arrow-to-top {
 		width: 4.8rem;
 		height: 4.8rem;
-		bottom: 2.5rem;
-		right: 2.5rem;
+		bottom: 4rem;
+		right: 3rem;
 	}
 }
