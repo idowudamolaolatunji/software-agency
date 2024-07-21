@@ -83,7 +83,12 @@
     .about--text-box {
         margin-left: 0;
     }
-    .about--image-box {
+    .about--image-box.main--desktop {
+        display: none;
+        opacity: 0;
+    }
+    /* this is the syle for the image, but now i'm using a shortcut */
+    /* .about--image-box {
         display: grid;
         grid-template-columns: 1.1fr 1fr;
         border: .24rem solid var(--main-border-color);
@@ -107,7 +112,15 @@
     img.img--3 {
         grid-column: 1 / -1;
         height: 14rem;
+    } */
+    .about--image-box.main--mobile {
+        display: flex;
+        width: 100%;
     }
+    .about--image {
+        width: 100%;
+    }
+
 
 
 

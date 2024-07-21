@@ -358,6 +358,9 @@ a.hero--link .icon, a.about--btn .icon {
     gap: 8rem;
     align-items: start;
 }
+.about--image-box.main--mobile {
+    display: none;
+}
 .about--image-box {
     position: relative;
     width: 100%;
