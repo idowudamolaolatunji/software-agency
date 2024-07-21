@@ -28,6 +28,7 @@ body {
 	color: var(--text-color);
 	background-color: var(--background-color);
 	position: relative;
+	overflow-x: hidden !important;
 
 	/* overscroll-behavior-y: none;
 	text-rendering: optimizeLegibility;

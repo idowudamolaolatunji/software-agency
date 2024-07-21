@@ -1,11 +1,77 @@
-import React from 'react'
+import React from 'react';
+import { useDataContext } from '../context/DataContext';
+
+import logo_img from '../assets/images/logo/main-logo-transparent.png';
+import logo_img_white from '../assets/images/logo/logo-white-transparent.png';
+import { Link } from 'react-router-dom';
+import { IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5';
+import { RiPhoneFill, RiTwitterXLine } from 'react-icons/ri';
+import { SiGmail } from 'react-icons/si';
+
 
 function Footer() {
-  return (
-    <footer className="footer">
-      <div className="">Footer</div>
-    </footer>
-  )
+    const { isDarkMode } = useDataContext();
+
+
+    return (
+        <footer className="footer">
+            <div className="footer--container">
+                <div className='footer--item'>
+                    <img src={!isDarkMode ? logo_img : logo_img_white} alt='buildspire logo' className='footer--logo' />
+                    <p className='copy-right'>
+                        © 2024 BuildSpire Ltd.
+                        <span>Designed & Developed by BuildSpire</span>
+                    </p>
+                </div>
+                <div className='footer--item'>
+                    <p className="footer--heading">Links</p>
+                    <ul className='footer--lists'>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/">About Us</Link></li>
+                        <li><Link to="/">What we do</Link></li>
+                        <li><Link to="/">Portfolio</Link></li>
+                    </ul>
+                </div>
+                <div className='footer--item'>
+                    <p className="footer--heading">Terms</p>
+                    <ul className='footer--lists'>
+                        <li><Link to="/">Our Team</Link></li>
+                        <li><Link to="/">Our Process</Link></li>
+                        <li><Link to="/">Our Terms</Link></li>
+                    </ul>
+                </div>
+                <div className='footer--item'>
+                    <p className="footer--heading">Contacts & Socials</p>
+                    <ul className="footer--lists">
+                        <span className='footer--socials'>
+                            <Link to="/">
+                                <IoLogoLinkedin className='icon' />
+                            </Link>
+                            <Link to="/">
+                                <IoLogoInstagram className="icon" />
+                            </Link>
+                            <Link to="/">
+                                <RiTwitterXLine className="icon" />
+                            </Link>
+                        </span>
+                        
+                        <li>
+                            <Link to="mailto:buildspire@gmail.com">
+                                <RiPhoneFill className="icon" />
+                                <p>buildspire@gmail.com</p>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="tel:+2349057643470">
+                                <SiGmail className="icon" />
+                                <p>+2349057643479</p>
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    )
 }
 
 export default Footer

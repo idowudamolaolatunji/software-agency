@@ -1,18 +1,22 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { HiEnvelope  } from "react-icons/hi2";
+import { TfiClose } from "react-icons/tfi";
+import { HiOutlineMenuAlt1 } from "react-icons/hi";
+import { IoLogoInstagram, IoLogoLinkedin, IoMoon, IoSunny } from "react-icons/io5";
+import { RiPhoneFill, RiTwitterXLine } from "react-icons/ri";
+import { SiGmail } from "react-icons/si";
+
+import { useDataContext } from "../context/DataContext";
+import { useWindowScroll } from 'react-use'
+import { createPortal } from "react-dom";
+import Overlay from "./Overlay";
 
 import LogoImg from '../assets/images/logo/main-logo.png'
 import LogoImgWhite from '../assets/images/logo/logo-white.png'
-import { IoLogoInstagram, IoLogoLinkedin, IoMoon, IoSunny } from "react-icons/io5";
-import { useDataContext } from "../context/DataContext";
-import { useWindowScroll } from 'react-use'
-import { HiOutlineMenuAlt1 } from "react-icons/hi";
-import { TfiClose } from "react-icons/tfi";
-import { createPortal } from "react-dom";
-import Overlay from "./Overlay";
-import { RiTwitterXLine } from "react-icons/ri";
-import { SiGmail } from "react-icons/si";
+
+import logo_img from '../assets/images/logo/main-logo-transparent.png';
+import logo_img_white from '../assets/images/logo/logo-white-transparent.png';
 
 
 function Header() {
@@ -82,7 +86,7 @@ function Header() {
             <header className="header main--mobile">
                 <Link to="/">
                     <div className="header--logo">
-                        <img src={isDarkMode ? LogoImgWhite : LogoImg} alt="buildspire" className="logo" />
+                        <img src={isDarkMode ? logo_img_white : logo_img} alt="buildspire logo" className="logo" />
                     </div>
                 </Link>
 
@@ -163,7 +167,7 @@ function Header() {
                         <menu className='mobile--sidebar'>
                             <div className="sidebar--head">
                                 <div className="header--logo">
-                                    <img src={!isDarkMode ? LogoImg : LogoImgWhite} className="logo" alt="buildspire logo" />
+                                    <img src={!isDarkMode ? logo_img : logo_img_white} className="logo" alt="buildspire logo" />
                                 </div>
 
                                 <span className='mobile-close' onClick={handleMobileSidebar}>
@@ -197,6 +201,7 @@ function Header() {
                                 <Link to="/"><IoLogoInstagram className="icon" /></Link>
                                 <Link to="/"><RiTwitterXLine className="icon" /></Link>
                                 <Link to="/"><SiGmail className="icon" /></Link>
+                                <Link to="/"><RiPhoneFill className="icon" /></Link>
                             </div>
                         </menu>
                     </>

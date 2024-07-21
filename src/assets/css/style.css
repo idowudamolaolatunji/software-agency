@@ -532,7 +532,7 @@ a.figure--link {
     backdrop-filter: blur(6px);
     background-image: radial-gradient(circle closest-side, #0f0f37 60%, #010104); */
     background-image: radial-gradient(circle closest-side, #6d46a76d 10%, #111);
-    color: #ccc;
+    color: #fff;
 }
 .portfolio--container {
     display: grid;
@@ -643,7 +643,7 @@ a.figure--link {
     max-width: 70rem;
     margin: 0 auto 2.4rem;
 }
-.cta--btn {
+a.cta--btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -665,4 +665,60 @@ a.figure--link {
 
 .footer {
     background-color: var(--section-grey);
+    padding: 6.8rem 0;
+}
+.main--mobile {
+    display: none;
+}
+.footer--container {
+    padding: 0 4.8rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    align-items: start;
+    gap: 4.8rem;
+}
+.footer--container div {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.footer--logo {
+    width: 15.2rem;
+}
+.copy-right {
+    display: flex;
+    flex-direction: column;
+    gap: .64rem;
+    font-size: 1.2rem;
+}
+.copy-right span {
+    font-size: 1.1rem;
+}
+.footer--heading {
+    font-size: 1.54rem;
+    font-weight: 600;
+    opacity: .92;
+}
+.footer--lists {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.8rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    opacity: .75;
+}
+.footer--lists li a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.footer--lists li a:hover, .footer--socials a:hover {
+    color: #6b18eb;
+}
+.footer--socials {
+    display: flex;
+    align-items: center;
+    gap: 2.6rem;
 }
