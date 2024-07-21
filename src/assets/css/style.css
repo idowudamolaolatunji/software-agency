@@ -619,16 +619,17 @@ a.figure--link {
 /* ====================================== */
 
 .cta__section {
+    padding: 6.2rem 0;
+    color: #fff;
+}
+.cta--container {
+    padding: 4.8rem 8rem;
     background-image: linear-gradient(var(--section-grey-alpha), var(--section-grey-alpha)), url("../../../public/cta.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    /* color: var(--section-inverse-text); */
-    color: #fff;
-}
-.cta--container {
-    max-width: 85rem;
     text-align: center;
+    border-radius: .2rem;
 }
 .cta--heading {
     font-size: 4rem;
@@ -653,4 +654,15 @@ a.figure--link {
     font-weight: 500;
     color: #fff !important;
     border-radius: .2rem;
+}
+
+
+
+
+/* ====================================== */
+/* FOOTER */
+/* ====================================== */
+
+.footer {
+    background-color: var(--section-grey);
 }

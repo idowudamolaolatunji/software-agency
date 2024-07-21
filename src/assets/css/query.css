@@ -82,6 +82,11 @@
         gap: 4rem;
     }
 
+
+    .cta--container {
+        padding: 4.8rem;
+    }
+
 }
 
 
@@ -92,9 +97,13 @@
         height: auto;
     }
 
+    .cta--container {
+        padding: 2.8rem;
+    }
     .cta--heading {
         font-size: 3.4rem;
     }
+
 }
 
 
@@ -226,8 +235,12 @@
 
 
 
+    .cta__section {
+        padding: 4.8rem 0;
+    }
     .cta--container {
         width: 100%;
+        padding: 4.2rem 1.4rem;
     }
     .cta--heading {
         font-size: 2.8rem;
