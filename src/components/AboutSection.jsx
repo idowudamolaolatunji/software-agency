@@ -12,11 +12,11 @@ function AboutSection({ page }) {
   return (
     <section className='section about__section' style={ page ? { paddingTop: "6.4rem" } : {} }>
         <div className="container about--container">
-            <div className="about--image-box">
+            {/* <div className="about--image-box">
                 <img src={Resource_1} alt="resources images" className='img--1'/>
                 <img src={Resource_2} alt="resources images" className='img--2' />
                 <img src={Resource_3} alt="resources images" className='img--3' />
-            </div>
+            </div> */}
 
             <div className="about--text-box">
                 <h2 className="section__heading">
