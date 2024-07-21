@@ -100,11 +100,11 @@
         display: none;
     }
     /* temps */
-    .header--mini.main--mobile {
+    /* .header--mini.main--mobile {
         bottom: 0;
         top: unset;
 	    animation: none;
-    }
+    } */
     /* ============================================= */
     /* HERO SECTION */
     /* ============================================= */
