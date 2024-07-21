@@ -11,6 +11,7 @@ import it_spt from '../assets/images/png-icons/support.png';
 import mntr from '../assets/images/png-icons/class.png';
 import brnd_trns from '../assets/images/png-icons/brand.png';
 import grphs from '../assets/images/png-icons/grp.png';
+import { LuDot } from 'react-icons/lu';
 
 
 const TEXTS = ['Tech', 'Startup', 'Business', 'Software'];
@@ -31,6 +32,14 @@ function ServiceSection() {
     <section className='section service__section'>
         <div className="container">
             <div className="section__heading--box">
+                <p className="section__subtitle">
+                    <LuDot style={{ fontSize: "1.8rem", marginRight: "-.6rem" }} />
+                    <>Services</>
+                    <picture>
+                        <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a1/512.webp" type="image/webp" />
+                        <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a1/512.gif" alt="💡" width="12" height="12" />
+                    </picture>
+                </p>
                 <h2 className="section__heading">
                     Our Comprehensive
                     <TextTransition springConfig={presets.wobbly} inline={true} style={{ color: "#6b18eb" }}>{TEXTS[index % TEXTS.length]}</TextTransition>

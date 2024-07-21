@@ -1,11 +1,14 @@
 import React from 'react'
 import Header from '../../components/Header'
+import Footer from '../../components/Footer'
+import AboutSection from '../../components/AboutSection'
 
 function index() {
     return (
         <>
             <Header />
-            <div>index</div>
+            <AboutSection />
+            <Footer />
         </>
     )
 }

@@ -116,6 +116,10 @@ input::-webkit-inner-spin-button {
 }
 .section__subtitle {
 	margin-bottom: .8rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: .5rem;
 }
 .icon {
 	font-size: 2rem;
