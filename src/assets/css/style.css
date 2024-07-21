@@ -211,6 +211,7 @@ a.nav--btn {
 }
 .sidebar--end {
     margin-top: auto;
+    margin-bottom: 5vh;
     display: flex;
     align-items: center;
     gap: 2.6rem;
