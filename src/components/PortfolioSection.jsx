@@ -8,10 +8,17 @@ import port_2 from '../assets/images/portfolio/dio.png';
 import port_3 from '../assets/images/portfolio/sym.png';
 import port_4 from '../assets/images/portfolio/fig.png';
 import { LuDot } from 'react-icons/lu';
+import { useWindowSize } from 'react-use';
 
 function PortfolioSection({ page }) {
+    const { width } = useWindowSize();
+
+
   return (
-   <section className="section portfolio__section" style={ page ? { paddingTop: "6.2rem", clipPath: "polygon(0 4.5%, 100% 0%, 100% 100%, 0 100%)" } : {}}>
+   <section className="section portfolio__section" style={{
+    ...(page && { paddingTop: "6.2rem" }),
+    ...(width > 650 && { clipPath: "polygon(0 4.5%, 100% 0%, 100% 100%, 0 100%)" }),
+  }}>
         <div className="container">
             <div className="section__heading--box">
                 {!page && (
