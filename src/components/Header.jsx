@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { HiEnvelope  } from "react-icons/hi2";
 
 import LogoImg from '../assets/images/logo/main-logo.png'
@@ -19,6 +19,8 @@ function Header() {
     const [showMobileSidebar, setShowMobileSidebar] = useState(false);
     const [showMini, setShowMini] = useState(false);
     const { isDarkMode, onMode } = useDataContext();
+    const { pathname } = useLocation();
+    console.log(pathname)
 
     const {y} = useWindowScroll();
     // check if y = 300
@@ -47,19 +49,19 @@ function Header() {
                 <div className="nav__bar">
                     <ul className="nav--list">
                         <li className="nav--item">
-                            <NavLink to="/" className="nav--active">Home</NavLink>
+                            <NavLink className={pathname === "/" ? "nav--active" : ""} to="/">Home</NavLink>
                         </li>
                         <li className="nav--item">
-                            <NavLink to="/about">About us</NavLink>
+                            <NavLink className={pathname === "/about" ? "nav--active" : ""} to="/about">About us</NavLink>
                         </li>
                         <li className="nav--item">
-                            <NavLink to="/services">What we do</NavLink>
+                            <NavLink className={pathname === "/services" ? "nav--active" : ""} to="/services">What we do</NavLink>
                         </li>
                         <li className="nav--item">
-                            <NavLink to="/steps">Our Process</NavLink>
+                            <NavLink className={pathname === "/steps" ? "nav--active" : ""} to="/steps">Our Process</NavLink>
                         </li>
                         <li className="nav--item">
-                            <NavLink to="/portfolio">Portfolio</NavLink>
+                            <NavLink className={pathname === "/portfolio" ? "nav--active" : ""} to="/portfolio">Portfolio</NavLink>
                         </li>
                     </ul>
                 </div>
@@ -107,19 +109,19 @@ function Header() {
                     <header className="header--mini main--desktop">
                         <ul className="nav--list">
                             <li className="nav--item">
-                                <NavLink to="/" className="nav--active">Home</NavLink>
+                                <NavLink className={pathname === "/" ? "nav--active" : ""} to="/">Home</NavLink>
                             </li>
                             <li className="nav--item">
-                                <NavLink to="/about">About us</NavLink>
+                                <NavLink className={pathname === "/about" ? "nav--active" : ""} to="/about">About us</NavLink>
                             </li>
                             <li className="nav--item">
-                                <NavLink to="/services">What we do</NavLink>
+                                <NavLink className={pathname === "/services" ? "nav--active" : ""} to="/services">What we do</NavLink>
                             </li>
                             <li className="nav--item">
-                                <NavLink to="/steps">Our Process</NavLink>
+                                <NavLink className={pathname === "/steps" ? "nav--active" : ""} to="/steps">Our Process</NavLink>
                             </li>
                             <li className="nav--item">
-                                <NavLink to="/portfolio">Portfolio</NavLink>
+                                <NavLink className={pathname === "/portfolio" ? "nav--active" : ""} to="/portfolio">Portfolio</NavLink>
                             </li>
                         </ul>
 
@@ -173,21 +175,20 @@ function Header() {
                             <div className="sidebar--body">
                                 <ul className="nav--list">
                                     <li className="nav--item">
-                                        <NavLink to="/" className="nav--active">Home</NavLink>
+                                        <NavLink className={pathname === "/" ? "nav--active" : ""} to="/">Home</NavLink>
                                     </li>
                                     <li className="nav--item">
-                                        <NavLink to="/about">About us</NavLink>
+                                        <NavLink className={pathname === "/about" ? "nav--active" : ""} to="/about">About us</NavLink>
                                     </li>
                                     <li className="nav--item">
-                                        <NavLink to="/servies">What we do</NavLink>
+                                        <NavLink className={pathname === "/services" ? "nav--active" : ""} to="/services">What we do</NavLink>
                                     </li>
                                     <li className="nav--item">
-                                        <NavLink to="/steps">Our Process</NavLink>
+                                        <NavLink className={pathname === "/steps" ? "nav--active" : ""} to="/steps">Our Process</NavLink>
                                     </li>
                                     <li className="nav--item">
-                                        <NavLink to="/portfolio">Portfolio</NavLink>
+                                        <NavLink className={pathname === "/portfolio" ? "nav--active" : ""} to="/portfolio">Portfolio</NavLink>
                                     </li>
-
                                     <NavLink to="/contact" className="nav--btn btn"> <HiEnvelope  /> Let's Talk</NavLink>
                                 </ul>
                             </div>

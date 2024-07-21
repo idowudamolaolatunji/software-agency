@@ -28,11 +28,11 @@ function HeroSection() {
                         <TypeAnimation
                             sequence={[
                                 'solutions.',
-                                1000,
+                                1500,
                                 'empowerment.',
-                                1000,
+                                1500,
                                 'innovations.',
-                                1000,
+                                1500,
                             ]}
                             speed={30}
                             className="hero--sub"
