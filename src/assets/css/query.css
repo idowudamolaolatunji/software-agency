@@ -39,7 +39,6 @@
         display: flex;
     }
     .header.main--mobile {
-        display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 0 2.4rem;
@@ -99,6 +98,12 @@
 @media screen and (max-width: 28.125em) {
     .header, a.disp {
         display: none;
+    }
+    /* temps */
+    .header--mini.main--mobile {
+        bottom: 0;
+        top: unset;
+	    animation: none;
     }
     /* ============================================= */
     /* HERO SECTION */
@@ -176,7 +181,7 @@
 
         display: flex;
         flex-direction: column;
-        gap: 0.3rem;
+        gap: 0;
     }
     .service--container, .how--container {
         grid-template-columns: 1fr;

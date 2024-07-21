@@ -150,7 +150,8 @@ a.nav--btn {
 .mode__btn .icon {
     font-size: 1.6rem;
 }
-.header--mini.main--mobile {
+.header--mini.main--mobile,
+.header.main--mobile {
     display: none;
 }
 
@@ -408,9 +409,10 @@ img.img--3 {
     gap: 2.8rem;
 }
 .service__section .section__heading {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     flex-wrap: wrap;
+    gap: 0.62rem;
 }
 .service__figure {
     padding: 2.4rem 1.8rem;
