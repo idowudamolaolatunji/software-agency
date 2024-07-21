@@ -216,6 +216,9 @@ input::-webkit-inner-spin-button {
 		width: 100%;
 		max-width: 100%;
 	}
+	.section__heading {
+		font-size: 3.2rem;
+	}
 }
 
 @media screen and (max-width: 450px) {

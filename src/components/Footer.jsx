@@ -33,11 +33,12 @@ function Footer() {
                     </ul>
                 </div>
                 <div className='footer--item'>
-                    <p className="footer--heading">Terms</p>
+                    <p className="footer--heading">Company</p>
                     <ul className='footer--lists'>
                         <li><Link to="/">Our Team</Link></li>
                         <li><Link to="/">Our Process</Link></li>
                         <li><Link to="/">Our Terms</Link></li>
+                        <li><Link to="/">Career</Link></li>
                     </ul>
                 </div>
                 <div className='footer--item'>
@@ -58,13 +59,13 @@ function Footer() {
                         <li>
                             <Link to="mailto:buildspire@gmail.com">
                                 <RiPhoneFill className="icon" />
-                                <p>buildspire@gmail.com</p>
+                                <p>+234 905 7643 479</p>
                             </Link>
                         </li>
                         <li>
                             <Link to="tel:+2349057643470">
                                 <SiGmail className="icon" />
-                                <p>+2349057643479</p>
+                                <p>buildspire@gmail.com</p>
                             </Link>
                         </li>
                     </ul>
