@@ -4,7 +4,14 @@ import TextTransition, { presets } from 'react-text-transition';
 import SectionFigure from './SectionFigure';
 
 
-import ui_ux from '../assets/images/png-icons/modul-lettering-ux-slash-ui-with-toolbar-and-web-design-interface-text.png'
+import ui_ux from '../assets/images/png-icons/ui-ux.png';
+import dev from '../assets/images/png-icons/dev.png';
+import data from '../assets/images/png-icons/data.png';
+import it_spt from '../assets/images/png-icons/support.png';
+import mntr from '../assets/images/png-icons/class.png';
+import brnd_trns from '../assets/images/png-icons/brand.png';
+import grphs from '../assets/images/png-icons/grp.png';
+
 
 const TEXTS = ['Tech', 'Startup', 'Business', 'Software'];
 
@@ -37,15 +44,14 @@ function ServiceSection() {
                     type="service"
                     title="IT consulting & supports."
                     content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. psum dolor sit amet consectetur adipisicing."
-                    image={ui_ux}
+                    image={it_spt}
                 />
                 <SectionFigure
                     type="service"
                     title="Data analytics & business intelligence."
                     content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. psum dolor sit amet consectetur adipisicing."
-                >
-                    <SiDatabricks className='icon' />
-                </SectionFigure>
+                    image={data}
+                />
                 <SectionFigure
                     type="service"
                     title="User interface designs & wireframe."
@@ -56,30 +62,26 @@ function ServiceSection() {
                     type="service"
                     title="Web & mobile app (software) developments."
                     content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. psum dolor sit amet consectetur adipisicing."
-                >
-                    <SiDatabricks className='icon' />
-                </SectionFigure>
+                    image={dev}
+                />
                 <SectionFigure
                     type="service"
                     title="Tech mentorship & education."
                     content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. psum dolor sit amet consectetur adipisicing."
-                >
-                    <SiDatabricks className='icon' />
-                </SectionFigure>
+                    image={mntr}
+                />
                 <SectionFigure
                     type="service"
                     title="Business logo & graphics design."
                     content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. psum dolor sit amet consectetur adipisicing."
-                >
-                    <SiDatabricks className='icon' />
-                </SectionFigure>
+                    image={grphs}
+                />
                 <SectionFigure
                     type="service"
                     title="Idea tranformation & brand identification."
                     content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. psum dolor sit amet consectetur adipisicing."
-                >
-                    <SiDatabricks className='icon' />
-                </SectionFigure>
+                    image={brnd_trns}
+                />
             </div>
         </div>
     </section>
