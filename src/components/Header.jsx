@@ -20,7 +20,6 @@ function Header() {
     const [showMini, setShowMini] = useState(false);
     const { isDarkMode, onMode } = useDataContext();
     const { pathname } = useLocation();
-    console.log(pathname)
 
     const {y} = useWindowScroll();
     // check if y = 300

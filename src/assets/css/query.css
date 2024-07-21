@@ -91,6 +91,10 @@
     .hero--image-box, .hero--img {
         height: auto;
     }
+
+    .cta--heading {
+        font-size: 3.4rem;
+    }
 }
 
 
@@ -162,6 +166,7 @@
         position: static;
         width: 100%;
         min-height: auto;
+        min-height: 15rem;
         height: 100%;
         object-fit: cover;
         border: none;
@@ -209,7 +214,6 @@
         animation-fill-mode: forwards;
         animation-delay: .5s;
     }
-
     @keyframes scroll-up-query {
         from {
             transform: scale(1.15) translateY(0);
@@ -217,6 +221,17 @@
         to {
             transform: scale(1.15) translateY(-15%);
         }
+    }
+
+
+
+
+    .cta--container {
+        width: 100%;
+    }
+    .cta--heading {
+        font-size: 2.8rem;
+        margin-bottom: 1.8rem;
     }
 }
 

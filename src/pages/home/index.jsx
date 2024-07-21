@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import HeroSection from '../../components/HeroSection'
 import Header from '../../components/Header'
 import AboutSection from '../../components/AboutSection'
@@ -9,11 +9,6 @@ import CtaSection from '../../components/CtaSection'
 import PortfolioSection from '../../components/PortfolioSection'
 
 function index() {
-
-    useEffect(function() {
-        window.scrollTo(0, 0)
-    }, []);
-    
     return (
         <>
             <Header />

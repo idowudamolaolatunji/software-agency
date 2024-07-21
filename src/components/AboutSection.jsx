@@ -10,7 +10,7 @@ import Resource_3 from '../assets/images/resources/linkedin-sales-solutions.jpg'
 
 function AboutSection({ page }) {
   return (
-    <section className='section about__section' style={ page ? { paddingTop: "6.8rem" } : {} }>
+    <section className='section about__section' style={ page ? { paddingTop: "6.4rem" } : {} }>
         <div className="container about--container">
             <div className="about--image-box">
                 <img src={Resource_1} alt="resources images" className='img--1'/>
@@ -22,7 +22,7 @@ function AboutSection({ page }) {
                 <h2 className="section__heading">
                     <span style={{ fontSize: "1.8rem", color: "#6b18eb" }}>BuildSpire</span>
                     <br />
-                    About
+                    About {page && 'Us'}
                 </h2>
                 
                 <span className='about__text section__text'>

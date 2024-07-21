@@ -11,7 +11,7 @@ import { LuDot } from 'react-icons/lu';
 
 function PortfolioSection({ page }) {
   return (
-   <section className="section portfolio__section" style={ page ? { paddingTop: "6.2rem "} : {}}>
+   <section className="section portfolio__section" style={ page ? { paddingTop: "6.2rem", clipPath: "polygon(0 4.5%, 100% 0%, 100% 100%, 0 100%)" } : {}}>
         <div className="container">
             <div className="section__heading--box">
                 {!page && (

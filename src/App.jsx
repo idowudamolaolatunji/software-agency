@@ -25,6 +25,10 @@ function App() {
         else setShowArrowToTop(false);
     }, [y]);
 
+    useEffect(function() {
+        window.scrollTo(0, 0)
+    }, []);
+
     return (
         <>
             {width >= 600 && (

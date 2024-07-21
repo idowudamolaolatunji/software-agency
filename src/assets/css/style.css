@@ -11,6 +11,8 @@
     /* #f9f9fb; */
     --section-figure: #f9f9f9;
     --section-grey: #eaeaf2;
+    --section-grey-alpha: #84848471;
+    --section-inverse-text: #222;
     --main-color: #6b18eb;
     --main-border-color: #6c18eb81;
 }
@@ -28,6 +30,8 @@
     /* --main-color: #5a1765; */
     /* #342954, #0e121d, #0c101b; */
     --section-grey: #242424;
+    --section-grey-alpha: #24242474;
+    --section-inverse-text: #eee;
     --section-figure: #262626;
     --main-border-color: #e3d0ff;
 }
@@ -362,7 +366,7 @@ a.hero--link .icon, a.about--btn .icon {
 .about--image-box img {
     border-radius: .28rem;
     border: .24rem solid var(--main-border-color);
-    min-height: 20rem;
+    min-height: 28rem;
     background-color: var(--section-grey);
 }
 img.img--1 {
@@ -453,9 +457,8 @@ color: var(--main-color);
     margin-bottom: 2rem;
 }
 .figure--icon .img {
-    width: 90%;
+    width: 115%;
 }
-
 .figure--title {
     font-size: 1.6rem;
     font-weight: 600;
@@ -517,7 +520,7 @@ a.figure--link {
     animation: expand .35s ease-out;
     width: 100%;
 }
-@keyframes expand { from{ width: 10%; } to{ width: 100%; } }
+@keyframes expand { from { width: 10%; } to { width: 100%; } }
 
 
 
@@ -531,7 +534,6 @@ a.figure--link {
     background-image: radial-gradient(circle closest-side, #6d46a76d 10%, #111);
     color: #ccc;
 }
-
 .portfolio--container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -573,7 +575,6 @@ a.figure--link {
     background-color: #e6e6e627;
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.6rem;
@@ -618,9 +619,13 @@ a.figure--link {
 /* ====================================== */
 
 .cta__section {
-    background-color: var(--section-grey);
+    background-image: linear-gradient(var(--section-grey-alpha), var(--section-grey-alpha)), url("../../../public/cta.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* color: var(--section-inverse-text); */
+    color: #fff;
 }
-
 .cta--container {
     max-width: 85rem;
     text-align: center;
@@ -632,11 +637,11 @@ a.figure--link {
 }
 .cta--text {
     font-size: 1.4rem;
+    font-weight: 500;
     line-height: 1.6;
     max-width: 70rem;
     margin: 0 auto 2.4rem;
 }
-
 .cta--btn {
     display: inline-flex;
     align-items: center;
