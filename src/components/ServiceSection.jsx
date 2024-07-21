@@ -47,7 +47,7 @@ function ServiceSection({ page }) {
                     <TextTransition springConfig={presets.wobbly} inline={true} style={{ color: "#6b18eb" }}>{TEXTS[index % TEXTS.length]}</TextTransition>
                     Solution Service
                 </h2>
-                <p className="section__text">Streamline, innovate, and dominate with our comprehensive solution service, designed to propel businesses forward in the ever-evolving digital age. Our comprehensive support helps you navigate the complexities of the tech landscape and achieve unparalleled growth</p>
+                <p className="section__text">Streamline, innovate, and dominate with our comprehensive solution service, designed to propel businesses forward in the ever-evolving digital age.</p>
             </div>
 
             <div className="service--container">
