@@ -170,7 +170,7 @@ a.nav--btn {
     left: 0;
     bottom: 0;
     height: 100vh;
-    min-width: 35rem;
+    min-width: 36rem;
     background-color: var(--background-color);
     animation: menu-slide-in .25s ease-out;
     padding: 2.8rem;
@@ -208,6 +208,19 @@ a.nav--btn {
     align-items: flex-start;
     font-size: 1.68rem;
     gap: 4.8rem;
+}
+.sidebar--end {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 2.6rem;
+}
+.sidebar--end .icon {
+    font-size: 2.8rem;
+    transition: all .35s;
+}
+.sidebar--end .icon:hover {
+    color: #6b18eb;
 }
 
 

@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { HiEnvelope  } from "react-icons/hi2";
 
 import LogoImg from '../assets/images/logo/main-logo.png'
 import LogoImgWhite from '../assets/images/logo/logo-white.png'
-import { IoMoon, IoSunny } from "react-icons/io5";
+import { IoLogoInstagram, IoLogoLinkedin, IoMoon, IoSunny } from "react-icons/io5";
 import { useDataContext } from "../context/DataContext";
 import { useWindowScroll } from 'react-use'
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import { TfiClose } from "react-icons/tfi";
 import { createPortal } from "react-dom";
 import Overlay from "./Overlay";
+import { RiTwitterXLine } from "react-icons/ri";
+import { SiGmail } from "react-icons/si";
 
 
 function Header() {
@@ -55,7 +57,7 @@ function Header() {
                             <NavLink to="">Our Team</NavLink>
                         </li>
                         <li className="nav--item">
-                            <NavLink to="">Contact</NavLink>
+                            <NavLink to="">Portfolio</NavLink>
                         </li>
                     </ul>
                 </div>
@@ -113,7 +115,7 @@ function Header() {
                                 <NavLink to="">Our Team</NavLink>
                             </li>
                             <li className="nav--item">
-                                <NavLink to="">Contact</NavLink>
+                                <NavLink to="">Portfolio</NavLink>
                             </li>
                         </ul>
 
@@ -179,9 +181,16 @@ function Header() {
                                         <NavLink to="">Our Team</NavLink>
                                     </li>
                                     <li className="nav--item">
-                                        <NavLink to="">Contact</NavLink>
+                                        <NavLink to="">Portfolio</NavLink>
                                     </li>
                                 </ul>
+                            </div>
+
+                            <div className="sidebar--end">
+                                <Link to="/"><IoLogoLinkedin className="icon" /></Link>
+                                <Link to="/"><IoLogoInstagram className="icon" /></Link>
+                                <Link to="/"><RiTwitterXLine className="icon" /></Link>
+                                <Link to="/"><SiGmail className="icon" /></Link>
                             </div>
                         </menu>
                     </>
