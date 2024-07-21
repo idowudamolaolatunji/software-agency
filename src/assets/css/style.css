@@ -624,7 +624,7 @@ a.figure--link {
 }
 .cta--container {
     padding: 4.8rem 8rem;
-    background-image: linear-gradient(var(--section-grey-alpha), var(--section-grey-alpha)), url("../../../cta.jpg");
+    background-image: linear-gradient(var(--section-grey-alpha), var(--section-grey-alpha)), url("../images/cta.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
