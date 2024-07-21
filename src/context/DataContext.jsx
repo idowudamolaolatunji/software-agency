@@ -12,15 +12,16 @@ export default DataContext;
 //// CREATING PROVIDER ////
 //////////////////////////////////////////////
 export const DataProvider = ({ children }) => {
-    // const [isDarkMode, setIsDarkMode] = useState(localStorage.getItem('isDarkMode') || false);
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    const storedDarkMode = localStorage.getItem('isDarkMode');
+    const [isDarkMode, setIsDarkMode] = useState(storedDarkMode !== null ? JSON.parse(storedDarkMode) : false);
+
 
     function onMode() {
         setIsDarkMode(!isDarkMode);
     }
 
     useEffect(function() {
-        // localStorage.setItem('isDarkMode', isDarkMode);
+        localStorage.setItem('isDarkMode', isDarkMode);
 
         if(isDarkMode) {
             document.body.classList.add('dark-mode');

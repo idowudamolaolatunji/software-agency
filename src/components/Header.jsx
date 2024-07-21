@@ -38,26 +38,28 @@ function Header() {
     return (
         <>
             <header className="header main--desktop">
-                <div className="header--logo">
-                    <img src={isDarkMode ? LogoImgWhite : LogoImg} alt="buildspire" className="logo" />
-                </div>
+                <Link to="/">
+                    <div className="header--logo">
+                        <img src={isDarkMode ? LogoImgWhite : LogoImg} alt="buildspire" className="logo" />
+                    </div>
+                </Link>
 
                 <div className="nav__bar">
                     <ul className="nav--list">
                         <li className="nav--item">
-                            <NavLink to="" className="nav--active">Home</NavLink>
+                            <NavLink to="/" className="nav--active">Home</NavLink>
                         </li>
                         <li className="nav--item">
-                            <NavLink to="">About us</NavLink>
+                            <NavLink to="/about">About us</NavLink>
                         </li>
                         <li className="nav--item">
-                            <NavLink to="">What we do</NavLink>
+                            <NavLink to="/services">What we do</NavLink>
                         </li>
                         <li className="nav--item">
-                            <NavLink to="">Our Team</NavLink>
+                            <NavLink to="/steps">Our Process</NavLink>
                         </li>
                         <li className="nav--item">
-                            <NavLink to="">Portfolio</NavLink>
+                            <NavLink to="/portfolio">Portfolio</NavLink>
                         </li>
                     </ul>
                 </div>
@@ -70,16 +72,18 @@ function Header() {
                             <IoSunny className="icon" />
                         )}
                     </button>
-                    <NavLink to="" className="nav--btn btn"> <HiEnvelope  /> Let's Talk</NavLink>
+                    <NavLink to="/contact" className="nav--btn btn"> <HiEnvelope  /> Let's Talk</NavLink>
                 </div>
 
             </header>
 
 
             <header className="header main--mobile">
-                <div className="header--logo">
-                    <img src={isDarkMode ? LogoImgWhite : LogoImg} alt="buildspire" className="logo" />
-                </div>
+                <Link to="/">
+                    <div className="header--logo">
+                        <img src={isDarkMode ? LogoImgWhite : LogoImg} alt="buildspire" className="logo" />
+                    </div>
+                </Link>
 
                 <div className="nav--others">
                     <button className="mode__btn" onClick={onMode}>
@@ -90,7 +94,7 @@ function Header() {
                         )}
                     </button>
 
-                    <NavLink to="" className="nav--btn btn disp"> <HiEnvelope  /> Let's Talk</NavLink>
+                    <NavLink to="/contact" className="nav--btn btn disp"> <HiEnvelope  /> Let's Talk</NavLink>
                     <span className="header-menu-box">
                         <HiOutlineMenuAlt1 className="header-menu" onClick={() => setShowMobileSidebar(true)} />
                     </span>
@@ -103,19 +107,19 @@ function Header() {
                     <header className="header--mini main--desktop">
                         <ul className="nav--list">
                             <li className="nav--item">
-                                <NavLink to="" className="nav--active">Home</NavLink>
+                                <NavLink to="/" className="nav--active">Home</NavLink>
                             </li>
                             <li className="nav--item">
-                                <NavLink to="">About us</NavLink>
+                                <NavLink to="/about">About us</NavLink>
                             </li>
                             <li className="nav--item">
-                                <NavLink to="">What we do</NavLink>
+                                <NavLink to="/services">What we do</NavLink>
                             </li>
                             <li className="nav--item">
-                                <NavLink to="">Our Team</NavLink>
+                                <NavLink to="/steps">Our Process</NavLink>
                             </li>
                             <li className="nav--item">
-                                <NavLink to="">Portfolio</NavLink>
+                                <NavLink to="/portfolio">Portfolio</NavLink>
                             </li>
                         </ul>
 
@@ -127,7 +131,7 @@ function Header() {
                                     <IoSunny className="icon" />
                                 )}
                             </button>
-                            <NavLink to="/" className="nav--btn btn"> <HiEnvelope  /> Let's Talk</NavLink>
+                            <NavLink to="/contact" className="nav--btn btn"> <HiEnvelope  /> Let's Talk</NavLink>
                         </div>
                     </header>
 
@@ -144,7 +148,7 @@ function Header() {
                                     <IoSunny className="icon" />
                                 )}
                             </button>
-                            <NavLink to="/" className="nav--btn btn"> <HiEnvelope  /> Let's Talk</NavLink>
+                            <NavLink to="/contact" className="nav--btn btn"> <HiEnvelope  /> Let's Talk</NavLink>
                         </div>
                     </header>
                 </>
@@ -169,20 +173,22 @@ function Header() {
                             <div className="sidebar--body">
                                 <ul className="nav--list">
                                     <li className="nav--item">
-                                        <NavLink to="" className="nav--active">Home</NavLink>
+                                        <NavLink to="/" className="nav--active">Home</NavLink>
                                     </li>
                                     <li className="nav--item">
-                                        <NavLink to="">About us</NavLink>
+                                        <NavLink to="/about">About us</NavLink>
                                     </li>
                                     <li className="nav--item">
-                                        <NavLink to="">What we do</NavLink>
+                                        <NavLink to="/servies">What we do</NavLink>
                                     </li>
                                     <li className="nav--item">
-                                        <NavLink to="">Our Team</NavLink>
+                                        <NavLink to="/steps">Our Process</NavLink>
                                     </li>
                                     <li className="nav--item">
-                                        <NavLink to="">Portfolio</NavLink>
+                                        <NavLink to="/portfolio">Portfolio</NavLink>
                                     </li>
+
+                                    <NavLink to="/contact" className="nav--btn btn"> <HiEnvelope  /> Let's Talk</NavLink>
                                 </ul>
                             </div>
 

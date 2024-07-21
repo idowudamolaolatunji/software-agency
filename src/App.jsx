@@ -7,6 +7,10 @@ import AnimatedCursor from 'react-animated-cursor';
 
 // const name = lazy(() => import('link'));
 const Home = lazy(() => import('../src/pages/home'));
+const About = lazy(() => import('../src/pages/about'));
+const Services = lazy(() => import('../src/pages/services'));
+const Steps = lazy(() => import('../src/pages/steps'));
+const Contact = lazy(() => import('../src/pages/contact'));
 
 
 
@@ -37,6 +41,10 @@ function App() {
                 <BrowserRouter>
                     <Routes>
                         <Route path="/" element={<Home />}></Route>
+                        <Route path="/about" element={<About />}></Route>
+                        <Route path="/services" element={<Services />}></Route>
+                        <Route path="/steps" element={<Steps />}></Route>
+                        <Route path="/contact" element={<Contact />}></Route>
                     </Routes>
                 </BrowserRouter>
             </Suspense>
