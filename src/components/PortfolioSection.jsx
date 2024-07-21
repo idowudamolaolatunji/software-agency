@@ -23,7 +23,7 @@ function PortfolioSection({ page }) {
                 {!page && (
                     <p className="section__subtitle">
                         <LuDot style={{ fontSize: "1.8rem", marginRight: "-.6rem" }} />
-                        <>Processes</>
+                        <>Portfolio</>
                         <picture>
                             <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2728/512.webp" type="image/webp" />
                             <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2728/512.gif" alt="✨" width="12" height="12" />
@@ -31,7 +31,7 @@ function PortfolioSection({ page }) {
                     </p>
                 )}
                 <h4 className="section__heading">Featured work</h4>
-                <p className="section__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, nihil.</p>
+                <p className="section__text">Highlighting our team's exceptional work in software development, design and consulting.</p>
             </div>
 
             <div className="portfolio--container">
@@ -51,7 +51,7 @@ function PortfolioSection({ page }) {
 
                         <div className="left--side">
                             <p className="portfolio--subtitle">Mentorship & coding</p>
-                            <p className="portfolio--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempora soluta blanditiis asperiores. Sunt, numquam.</p>
+                            <p className="portfolio--description">A catalyst for change in the tech landscape, believing in the transformative power of tech within reach for everyone</p>
                         </div>
                     </figcaption>
                 </figure>
@@ -72,7 +72,8 @@ function PortfolioSection({ page }) {
 
                         <div className="left--side">
                             <p className="portfolio--subtitle">Developer's portfolio</p>
-                            <p className="portfolio--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempora soluta blanditiis asperiores. Sunt, numquam.</p>
+                            <p className="portfolio--description">Full-stack JavaScript developer,
+                            specialized in crafting mordern, unique UI with scalable, dynamic backend applications.</p>
                         </div>
                     </figcaption>
                 </figure>
@@ -93,7 +94,7 @@ function PortfolioSection({ page }) {
 
                         <div className="left--side">
                             <p className="portfolio--subtitle">Health & Logistics</p>
-                            <p className="portfolio--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempora soluta blanditiis asperiores. Sunt, numquam.</p>
+                            <p className="portfolio--description">Specialize in importing, sourcing, and marketing industrial and Sulphonication materials.</p>
                         </div>
                     </figcaption>
                 </figure>
@@ -115,7 +116,7 @@ function PortfolioSection({ page }) {
 
                         <div className="left--side">
                             <p className="portfolio--subtitle">E-ticketing</p>
-                            <p className="portfolio--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempora soluta blanditiis asperiores. Sunt, numquam.</p>
+                            <p className="portfolio--description">Lorem ipsum dolor sit amet consectetur elit. Esse tempora soluta blanditiis asperiores.</p>
                         </div>
                     </figcaption>
                 </figure>

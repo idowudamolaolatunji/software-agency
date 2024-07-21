@@ -32,9 +32,10 @@ function AboutSection({ page }) {
                 </h2>
                 
                 <span className='about__text section__text'>
-                    <p>BABs Labs launched websh3 to support diverse leaders in building a more inclusive Web3 ecosystem that prioritizes sustainability.</p>
-                    <p>It's time to put our words into action so that this new, vibrant space can generate a positive social and environmental impact.</p>
-                    <p>websh3 is an experience, not a conference. Our interactive events seek to connect teams, ignite partnerships and drive funding to projects moving the needle.</p>
+                    <p>In today's fast-paced digital landscape, businesses need to stay ahead of the curve to remain competitive. At{" "}
+                    <span style={{ fontWeight: 600, color: "#6b18eb" }}>BuildSpire</span>, we specialize in empowering businesses through modern software solution.</p>
+
+                    <p>Our team of expert software developers, designers and consultants work closely with clients to understand their unique challenges and goals, crafting customized solutions that meet their specific needs.</p>
                 </span>
 
                 <Link to="/about" className='about--btn btn'>Learn More <IoIosArrowForward className="icon" /></Link>

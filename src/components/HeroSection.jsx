@@ -40,7 +40,7 @@ function HeroSection() {
                         />
                     </h2>
 
-                    <p className="hero--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolore hic saepe dicta tempore libero illo illum dolores alias nemo nobis delectus eveniet minima.</p>
+                    <p className="hero--text">By harnessing the power of cutting-edge technology and innovative software solutions, we help businesses like yours streamline operations, enhance efficiency, and drive growth.</p>
 
                     <div className="hero--action">
                         <Link to="/services" className="hero--link">
@@ -84,7 +84,7 @@ function HeroSection() {
                     </div>
 
                     <span>
-                        11+ people including <strong style={{color: "#6b18eb" }}>Top</strong> brands are already using our services
+                        15+ people including <strong style={{color: "#6b18eb" }}>Top</strong> brands are already using our services
                     </span>
                 </div>
             </div>

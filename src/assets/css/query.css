@@ -15,7 +15,7 @@
         width: 15rem;
     }
 
-    
+
     /* ============================================= */
     /* HERO SECTION */
     /* ============================================= */
@@ -276,6 +276,9 @@
         background-repeat: no-repeat;
         background-attachment: scroll;
     }
+    .how__section {
+        clip-path: none;
+    }
 
 
     /* ============================================= */
@@ -349,9 +352,7 @@
     .service--container, .how--container {
         grid-template-columns: 1fr;
     }
-    .how__section {
-        clip-path: none;
-    }
+    
 
 
     /* ============================================= */
@@ -404,6 +405,9 @@
     /* ============================================= */
     .footer--container {
         grid-template-columns: 1fr;
+    }
+    .footer--logo {
+        width: 13rem;
     }
 }
 

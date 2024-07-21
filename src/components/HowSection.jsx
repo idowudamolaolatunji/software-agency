@@ -20,7 +20,7 @@ function HowSection({ page }) {
                         </p>
                     )}
                     <h2 className="section__heading">Step by step walk to our IT solution process</h2>
-                    <p className="section__text">Lorem ipsum dolor sit amet Vitae eveniet aliquid maiores ipsum blanditiis explicabo consectetur adipisicing elit. Sed sapiente blanditiis dicta iusto nemo voluptatibus, mollitia ea numquam beatae? Quod!</p>
+                    <p className="section__text">Discover how our expert team guides you through a tailored IT solution process, from initial consultation to deployment and support. Our structured approach ensures clarity and transparency every step of the way.</p>
                 </div>
 
                 <div className="how--container">
