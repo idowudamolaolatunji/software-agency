@@ -8,9 +8,9 @@ import Resource_2 from '../assets/images/resources/niclas-illg-FJ5e_2f96h4-unspl
 import Resource_3 from '../assets/images/resources/linkedin-sales-solutions.jpg';
 
 
-function AboutSection() {
+function AboutSection({ page }) {
   return (
-    <section className='section about__section'>
+    <section className='section about__section' style={ page ? { paddingTop: "6.8rem" } : {} }>
         <div className="container about--container">
             <div className="about--image-box">
                 <img src={Resource_1} alt="resources images" className='img--1'/>

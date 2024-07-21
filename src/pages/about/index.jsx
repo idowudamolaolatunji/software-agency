@@ -7,7 +7,7 @@ function index() {
     return (
         <>
             <Header />
-            <AboutSection />
+            <AboutSection page={true} />
             <Footer />
         </>
     )

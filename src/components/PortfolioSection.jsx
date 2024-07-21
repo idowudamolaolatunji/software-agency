@@ -9,19 +9,21 @@ import port_3 from '../assets/images/portfolio/sym.png';
 import port_4 from '../assets/images/portfolio/fig.png';
 import { LuDot } from 'react-icons/lu';
 
-function PortfolioSection() {
+function PortfolioSection({ page }) {
   return (
-   <section className="section portfolio__section">
+   <section className="section portfolio__section" style={ page ? { paddingTop: "6.2rem "} : {}}>
         <div className="container">
             <div className="section__heading--box">
-                <p className="section__subtitle">
-                    <LuDot style={{ fontSize: "1.8rem", marginRight: "-.6rem" }} />
-                    <>Processes</>
-                    <picture>
-                        <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2728/512.webp" type="image/webp" />
-                        <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2728/512.gif" alt="✨" width="12" height="12" />
-                    </picture>
-                </p>
+                {!page && (
+                    <p className="section__subtitle">
+                        <LuDot style={{ fontSize: "1.8rem", marginRight: "-.6rem" }} />
+                        <>Processes</>
+                        <picture>
+                            <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2728/512.webp" type="image/webp" />
+                            <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2728/512.gif" alt="✨" width="12" height="12" />
+                        </picture>
+                    </p>
+                )}
                 <h4 className="section__heading">Featured work</h4>
                 <p className="section__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, nihil.</p>
             </div>
