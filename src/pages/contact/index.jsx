@@ -7,7 +7,7 @@ function index() {
     return (
         <>
             <Header />
-            <div>index</div>
+            {/* <div>index</div> */}
             <CtaSection />
             <Footer />
         </>

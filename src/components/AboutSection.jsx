@@ -32,6 +32,8 @@ function AboutSection({ page }) {
                 </h2>
                 
                 <span className='about__text section__text'>
+                    <p>Our journey begins with a vision to empower individuals and businesses of all sizes with technology solutions taliored to their needs</p>
+
                     <p>In today's fast-paced digital landscape, businesses need to stay ahead of the curve to remain competitive. At{" "}
                     <span style={{ fontWeight: 600, color: "#6b18eb" }}>BuildSpire</span>, we specialize in empowering businesses through modern software solution.</p>
 
@@ -40,8 +42,6 @@ function AboutSection({ page }) {
 
                 <Link to="/about" className='about--btn btn'>Learn More <IoIosArrowForward className="icon" /></Link>
             </div>
-
-            
         </div>
     </section>
   )

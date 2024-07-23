@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { SiDatabricks } from 'react-icons/si';
 import TextTransition, { presets } from 'react-text-transition';
 import SectionFigure from './SectionFigure';
 
@@ -54,43 +53,46 @@ function ServiceSection({ page }) {
                 <SectionFigure
                     type="service"
                     title="IT consulting & supports."
-                    content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. psum dolor sit amet consectetur adipisicing."
+                    // content="Expert guidance to optimize your technology, from strategy to implementation and ongoing support."
+                    content="Get expert tech guidance to optimize your tech business and stay ahead of the curve with our ongoing support."
                     image={it_spt}
                 />
                 <SectionFigure
                     type="service"
                     title="Data analytics & business intelligence."
-                    content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. psum dolor sit amet consectetur adipisicing."
+                    // content="Unlock data insights to drive growth, improve efficiency, and enhance customer experiences."
+                    content="Turn data into insights that drive growth, efficiency, and customer satisfaction."
                     image={data}
                 />
                 <SectionFigure
                     type="service"
                     title="User interface designs & wireframe."
-                    content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. psum dolor sit amet consectetur adipisicing."
+                    content="Create user-friendly digital experiences that engage and delight your audience."
                     image={ui_ux}
                 />
                 <SectionFigure
                     type="service"
                     title="Web & mobile app (software) developments."
-                    content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. psum dolor sit amet consectetur adipisicing."
+                    content="Custom software solutions that bring your vision to life and drive innovation."
                     image={dev}
                 />
                 <SectionFigure
                     type="service"
                     title="Tech mentorship & education."
-                    content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. psum dolor sit amet consectetur adipisicing."
+                    // content="Learn from our experts and empower your team with personalized tech guidance & training."
+                    content="Empower your team with the knowledge and skills to thrive in the digital age through our tech mentorship programs."
                     image={mntr}
                 />
                 <SectionFigure
                     type="service"
                     title="Business logo & graphics design."
-                    content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. psum dolor sit amet consectetur adipisicing."
+                    content="Establish a strong brand identity with our professional business logo and graphics design services."
                     image={grphs}
                 />
                 <SectionFigure
                     type="service"
                     title="Idea tranformation & brand identification."
-                    content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. psum dolor sit amet consectetur adipisicing."
+                    content="Transform your ideas into reality with our expert idea transformation and brand identification services"
                     image={brnd_trns}
                 />
             </div>

@@ -28,37 +28,37 @@ function HowSection({ page }) {
                         type="how"
                         subtitle="Step 1"
                         title="Contact & schedule meeting"
-                        content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aut inventore, possimus molestiae facilis enim tempore fugiat ipsam non mollitia."
+                        content="Reach out to us to discuss your IT needs and schedule a meeting with our expert team. We'll set the stage for a seamless collaboration."
                     />
                     <SectionFigure
                         type="how"
                         subtitle="Step 2"
                         title="Initial consultation"
-                        content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aut inventore, possimus molestiae facilis enim tempore fugiat ipsam non mollitia."
+                        content="Meet with our experts to share your vision, goals, and challenges. We'll listen attentively and provide guidance on the best IT solutions for your business."
                     />
                     <SectionFigure
                         type="how"
                         subtitle="Step 3"
                         title="Assessment & planning"
-                        content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aut inventore, possimus molestiae facilis enim tempore fugiat ipsam non mollitia."
+                        content="Our team will assess your current IT infrastructure and develop a tailored plan to address your unique needs, ensuring a solid foundation for success."
                     />
                     <SectionFigure
                         type="how"
                         subtitle="Step 4"
                         title="Solution design & development"
-                        content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aut inventore, possimus molestiae facilis enim tempore fugiat ipsam non mollitia."
+                        content="We'll design and develop a customized IT solution that meets your specific requirements, leveraging cutting-edge technologies and best practices."
                     />
                     <SectionFigure
                         type="how"
                         subtitle="Step 5"
                         title="Deployment & support"
-                        content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aut inventore, possimus molestiae facilis enim tempore fugiat ipsam non mollitia."
+                        content="Our experts will deploy your new IT solution, provide comprehensive ongoing support to ensure a smooth transition and optimal performance."
                     />
                     <SectionFigure
                         type="how"
                         subtitle="Step 6"
                         title="Monitoring & optimization"
-                        content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aut inventore, possimus molestiae facilis enim tempore fugiat ipsam non mollitia."
+                        content="We'll continuously monitor your IT system, identify areas for improvement, and implement optimizations to ensure peak performance and efficiency."
                     />
                 </div>
             </div>

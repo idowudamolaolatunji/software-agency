@@ -116,7 +116,7 @@ function PortfolioSection({ page }) {
 
                         <div className="left--side">
                             <p className="portfolio--subtitle">E-ticketing</p>
-                            <p className="portfolio--description">Lorem ipsum dolor sit amet consectetur elit. Esse tempora soluta blanditiis asperiores.</p>
+                            <p className="portfolio--description">Connecting individuals and organisations with the best event experiences.</p>
                         </div>
                     </figcaption>
                 </figure>
