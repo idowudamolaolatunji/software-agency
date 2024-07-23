@@ -6,7 +6,7 @@ import CtaSection from '../../components/CtaSection'
 function index() {
 
     useEffect(function () {
-        document.title = 'Buildspire - Career'
+        document.title = 'Buildspire - Terms of use'
     }, []);
 
     return (
