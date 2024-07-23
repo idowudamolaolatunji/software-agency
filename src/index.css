@@ -312,6 +312,10 @@ input::-webkit-inner-spin-button {
 		bottom: 4rem;
 		right: 3rem;
 	}
+	.spinner {
+		width: 35px;
+		height: 35px;
+	}
 	.spinner--container {
 		height: 90vh;
 	}
