@@ -4,14 +4,19 @@ import Footer from '../../components/Footer'
 import CtaSection from '../../components/CtaSection'
 
 function index() {
-  return (
-    <>
-        <Header />
-        {/* <p>Terms</p> */}
-        <CtaSection />
-        <Footer />
-    </>
-  )
+
+    useEffect(function () {
+        document.title = 'Buildspire - Career'
+    }, []);
+
+    return (
+        <>
+            <Header />
+            {/* <p>Terms</p> */}
+            <CtaSection />
+            <Footer />
+        </>
+    )
 }
 
 export default index
