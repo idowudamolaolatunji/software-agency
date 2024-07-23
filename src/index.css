@@ -312,4 +312,7 @@ input::-webkit-inner-spin-button {
 		bottom: 4rem;
 		right: 3rem;
 	}
+	.spinner--container {
+		height: 90vh;
+	}
 }
