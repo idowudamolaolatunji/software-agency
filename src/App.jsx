@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useWindowScroll, useWindowSize } from 'react-use';
 import ArrowToTop from './components/ArrowToTop';
 import AnimatedCursor from 'react-animated-cursor';
+import Spinner from './components/Spinner';
 
 
 // const name = lazy(() => import('link'));
@@ -44,7 +45,7 @@ function App() {
                 />
             )}
 
-            <Suspense fallback={<div></div>}>
+            <Suspense fallback={<Spinner />}>
                 <BrowserRouter>
                     <Routes>
                         <Route path="/" element={<Home />}></Route>
