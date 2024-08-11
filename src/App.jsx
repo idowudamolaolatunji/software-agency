@@ -6,16 +6,25 @@ import AnimatedCursor from 'react-animated-cursor';
 import Spinner from './components/Spinner';
 
 
-// const name = lazy(() => import('link'));
-const Home = lazy(() => import('../src/pages/home'));
-const About = lazy(() => import('../src/pages/about'));
-const Services = lazy(() => import('../src/pages/services'));
-const Steps = lazy(() => import('../src/pages/steps'));
-const Contact = lazy(() => import('../src/pages/contact'));
-const Portfolio = lazy(() => import('../src/pages/portfolio'));
-const Teams = lazy(() => import('../src/pages/teams'));
-const Career = lazy(() => import('../src/pages/career'));
-const Terms = lazy(() => import('../src/pages/terms'));
+const Home = lazy(() => import('./pages/home'));
+const About = lazy(() => import('./pages/about'));
+const Services = lazy(() => import('./pages/services'));
+const Steps = lazy(() => import('./pages/steps'));
+const Contact = lazy(() => import('./pages/contact'));
+const Portfolio = lazy(() => import('./pages/portfolio'));
+const Teams = lazy(() => import('./pages/teams'));
+const Career = lazy(() => import('./pages/career'));
+const Terms = lazy(() => import('./pages/terms'));
+
+import {
+    MetorshipService, 
+    ConsultingService, 
+    AnalyticService, 
+    WireframeService, 
+    GraphicsServices, 
+    SoftwareServices, 
+    IdentificationServices
+} from './pages/services/servicesSubPages';
 
 
 function App() {
@@ -51,6 +60,13 @@ function App() {
                         <Route path="/" element={<Home />}></Route>
                         <Route path="/about" element={<About />}></Route>
                         <Route path="/services" element={<Services />}></Route>
+                        <Route path="/services/metorship-programme" element={<MetorshipService />}></Route>
+                        <Route path="/services/it-consulting-and-supports" element={<ConsultingService />}></Route>
+                        <Route path="/services/data-analytics-and-intelligence" element={<AnalyticService />}></Route>
+                        <Route path="/services/ui-ux-design-and-wireframe" element={<WireframeService />}></Route>
+                        <Route path="/services/graphics-and-logo-design" element={<GraphicsServices />}></Route>
+                        <Route path="/services/software-development" element={<SoftwareServices />}></Route>
+                        <Route path="/services/tranformation-and-identification" element={<IdentificationServices />}></Route>
                         <Route path="/steps" element={<Steps />}></Route>
                         <Route path="/portfolio" element={<Portfolio />}></Route>
                         <Route path="/contact" element={<Contact />}></Route>

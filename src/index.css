@@ -55,18 +55,20 @@ button {
 	font-family: inherit;
 	transition: all 0.35s;
 }
+/* everything scroll */
 ::-webkit-scrollbar {
 	width: 0.6rem;
 	height: 0.6rem;
 	cursor: grab;
 }
+/* the scroll track */
 ::-webkit-scrollbar-track {
-	background: none;
 	border: none;
+	background-color: transparent;
 }
+/* the scroll itself */
 ::-webkit-scrollbar-thumb {
 	background: #ccc;
-	border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
 	background: #aaa;
