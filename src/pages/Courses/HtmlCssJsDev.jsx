@@ -50,7 +50,6 @@ function HtmlCssJsDev() {
                                             <i className="fi fi-rr-clock" /> 2hrs / Class
                                         </p>
                                     </span>
-                                    {/* <a href="https://paystack.com/pay/codelabafrica" class="lab-course-button">Enroll Now</a> */}
                                     <button className="lab-course-button completed">
                                         Completed
                                     </button>

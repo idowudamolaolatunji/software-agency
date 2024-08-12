@@ -17,7 +17,7 @@ function LabsSection({ customStyle }) {
               <img
                 className="lab__figure--image"
                 src={LabFrontEnd}
-                alt="codelab labs images"
+                alt="buildspire labs images"
               />
               <div className="lab__figure--content">
                 <p>Frontend Lab</p>
@@ -29,7 +29,7 @@ function LabsSection({ customStyle }) {
               <img
                 className="lab__figure--image"
                 src={LabMobile}
-                alt="codelab labs images"
+                alt="buildspire labs images"
               />
               <div className="lab__figure--content">
                 <p>Mobile Lab</p>
@@ -41,7 +41,7 @@ function LabsSection({ customStyle }) {
               <img
                 className="lab__figure--image"
                 src={LabFullStack}
-                alt="codelab labs images"
+                alt="buildspire labs images"
               />
               <div className="lab__figure--content">
                 <p>Full-Stack Lab</p>
@@ -53,7 +53,7 @@ function LabsSection({ customStyle }) {
               <img
                 className="lab__figure--image"
                 src={LabBackEnd}
-                alt="codelab labs images"
+                alt="buildspire labs images"
               />
               <div className="lab__figure--content">
                 <p>Backend Lab</p>
@@ -67,7 +67,7 @@ function LabsSection({ customStyle }) {
           <h3 className="section__heading">Find your desired lab.</h3>
           </div>
           <p className="lab__text">
-            At CodeLab, we offer a diverse array of labs tailored to meet your
+            At Buildspire Ng, we offer a diverse array of labs tailored to meet your
             specific coding needs. Whether you're a beginner taking your first
             steps into the world of coding or an experienced developer looking to
             expand your skill set, we have the perfect lab for you.
