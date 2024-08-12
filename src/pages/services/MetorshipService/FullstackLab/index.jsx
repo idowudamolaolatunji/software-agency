@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 
-import { LuCalendarClock } from 'react-icons/lu';
+import { LuCalendarClock, LuDot } from 'react-icons/lu';
 import { TbUsersGroup } from 'react-icons/tb';
 import { PiChair } from 'react-icons/pi';
 import { IoPricetagsOutline } from 'react-icons/io5';
@@ -10,6 +10,7 @@ import Marquee from 'react-fast-marquee';
 import Header from '../../../../components/Header';
 import Footer from '../../../../components/Footer';
 import LabHeroSection from '../../../../components/LabHeroSection';
+import CtaSection from '../../../../components/CtaSection';
 
 
 function index() {
@@ -72,7 +73,15 @@ function index() {
 
                     <div style={{ marginTop: '6rem' }}>
                         <div className="section__heading--box">
-                            <p className="section__subtitle">Lab Courses</p>
+                            <p className="section__subtitle">
+                                <LuDot style={{ fontSize: "1.8rem", marginRight: "-.6rem" }} />
+                                <>Courses</>
+
+                                <picture>
+                                    <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a1/512.webp" type="image/webp" />
+                                    <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a1/512.gif" alt="💡" width="12" height="12" />
+                                </picture>
+                            </p>
                             <h3 className="section__heading">Full-stack Lab Courses For You.</h3>
                             <p className="section__text">
                                 Here are some of Buildspire Ng mentorship transformative virtual courses awaiting

@@ -53,8 +53,6 @@ function ReactDev() {
                                             <i className="fi fi-rr-clock" /> 1½hrs / Class
                                         </p>
                                     </span>
-                                    {/* <a href="/checkout.html" class="lab-course-button">Enroll Now</a> */}
-                                    {/* <button onClick={() => navigate('/checkpoint')} data-info="React.js Frontend Development" className="lab-course-button avaliable"> */}
                                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_mhSbSVwU_mI2CNLCwubjOEQCmnIga8E13K9J9F5kZd8baQ/viewform?usp=pp_url" className="lab-course-button avaliable">
                                         Enroll Now!
                                     </a>
