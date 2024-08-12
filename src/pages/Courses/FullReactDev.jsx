@@ -48,7 +48,7 @@ function FullReactDev() {
                                             <i className="fi fi-rr-clock" /> 1hrs / Class
                                         </p>
                                     </span>
-                                    <a href="https://docs.google.com/forms/d/1K9hPXe722LukdYdpd6lFS7Ap4t7rPoWh8nkTRsqUJDE/prefill" className="lab-course-button avaliable">
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdjvKK8_CLg3Av3LQ0tFnNW4PmbspkwSs6bm5eZW_btNO-GMg/viewform" className="lab-course-button avaliable">
                                         Enroll Now!
                                         <LuArrowUpRight className='icon' />
                                     </a>
