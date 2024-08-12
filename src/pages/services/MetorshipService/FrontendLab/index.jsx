@@ -21,7 +21,7 @@ function index() {
         <>
             <Header />
 
-            <section className='section'>
+            <section className='section' style={{ paddingBottom: '0rem' }}>
                 <div className='container'>
                     <LabHeroSection title={'Frontend Lab'} welcome={`
                         Welcome to the Frontend Lab at Buildspire Ng, where creativity meets technology and innovation. Are you ready to embark on an exciting journey into the world of frontend web development? Whether you're a complete beginner taking your first steps or an experienced developer looking to refine your skills, our Frontend Lab is your gateway to a world of possibilities.
@@ -68,9 +68,10 @@ function index() {
                         </Marquee>
 
                     </LabHeroSection>
+                </div>
 
-
-                    <div style={{ marginTop: '6rem' }}>
+                <div style={{ marginTop: '6rem' }} className='section--grey'>
+                    <div className="container">
                         <div className="section__heading--box">
                             <p className="section__subtitle">
                                 <LuDot style={{ fontSize: "1.8rem", marginRight: "-.6rem" }} />

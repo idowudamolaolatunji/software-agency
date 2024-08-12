@@ -7,6 +7,7 @@
 	--selection: #ede1ff;
 	--background-color-arrow: #555;
 	--color-arrow: #eee;
+	--section-grey: #eaeaf2;
 }
 ::selection {
 	background-color: var(--selection);
@@ -85,6 +86,7 @@ input::-webkit-inner-spin-button {
 	--selection: #736981;
 	--background-color-arrow: #aaa;
 	--color-arrow: #333;
+    --section-grey: #222222;
 }
 .container {
 	max-width: 112rem;
@@ -94,6 +96,11 @@ input::-webkit-inner-spin-button {
 .section {
 	padding: 8rem 0;
 	width: 100%;
+}
+.section--grey {
+	background-color: var(--section-grey);
+	width: 100%;
+	padding: 6rem 0;
 }
 .section__heading--box {
 	max-width: 86rem;

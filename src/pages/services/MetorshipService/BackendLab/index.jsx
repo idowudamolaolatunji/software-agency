@@ -22,7 +22,7 @@ function index() {
         <>
             <Header />
 
-            <section className='section'>
+            <section className='section' style={{ paddingBottom: '0rem' }}>
                 <div className='container'>
                     <LabHeroSection title={'Backend Lab'} welcome={`
                         Welcome to the Backend Lab at Buildspire Ng, where you'll discover the world of backend development and server-side programming. Whether you're new to coding or a seasoned developer, our Backend Lab will empower you to create the core functionality of web applications and services.
@@ -100,9 +100,10 @@ function index() {
                             </span>
                         </Marquee>
                     </LabHeroSection>
+                </div>
 
-
-                    <div style={{ marginTop: '6rem' }}>
+                <div style={{ marginTop: '6rem' }} className='section--grey'>
+                    <div className="container">
                         <div className="section__heading--box">
                             <p className="section__subtitle">
                                 <LuDot style={{ fontSize: "1.8rem", marginRight: "-.6rem" }} />

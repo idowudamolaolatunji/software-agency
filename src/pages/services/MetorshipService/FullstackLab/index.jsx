@@ -23,7 +23,7 @@ function index() {
         <>
             <Header />
 
-            <section className='section'>
+            <section className='section' style={{ paddingBottom: '0rem' }}>
                 <div className='container'>
                     <LabHeroSection title={'Full Stack Lab'} welcome={`
                         Welcome to the Full Stack Lab at Buildspire Ng, where you'll uncover the power of full stack development. Whether you're a coding novice or an experienced developer, our Full Stack Lab is your gateway to becoming a versatile tech professional who can create both frontend and backend solutions.
@@ -69,9 +69,10 @@ function index() {
                             </span>
                         </Marquee>
                     </LabHeroSection>
+                </div>
 
-
-                    <div style={{ marginTop: '6rem' }}>
+                <div style={{ marginTop: '6rem' }} className='section--grey'>
+                    <div className="container">
                         <div className="section__heading--box">
                             <p className="section__subtitle">
                                 <LuDot style={{ fontSize: "1.8rem", marginRight: "-.6rem" }} />
