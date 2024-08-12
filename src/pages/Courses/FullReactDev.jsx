@@ -68,9 +68,9 @@ function FullReactDev() {
                                     </span>
                                 </div>
                                 <div className="lab__grids-content-two">
-                                    <p>
-                                        <i className="fi fi-rr-calendar" /> 10-weeks |
-                                        <span className="content--extra">Start:</span>September 10th, 2024.
+                                    <p style={{ display: "block" }}>
+                                        <i className="fi fi-rr-calendar" />&nbsp;&nbsp;10-weeks |{" "}
+                                        <span className="content--extra">Start:{" "}</span>September 10th, 2024.
                                     </p>
                                     <p>
                                         <i className="fi fi-rr-book-bookmark" /> Resources, Live mentoring and re-recorded class videos to help you through the learning period.
