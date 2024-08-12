@@ -13,7 +13,7 @@ function LabsSection({ customStyle }) {
       <div className="lab__grid">
         <div className="labs__cards">
           <figure className="lab__figure lab__figure--one">
-            <Link to="/services/metorship-programme/frontend-lab">
+            <Link to="/services/metorship-programme/frontend">
               <img
                 className="lab__figure--image"
                 src={LabFrontEnd}
@@ -25,7 +25,7 @@ function LabsSection({ customStyle }) {
             </Link>
           </figure>
           <figure className="lab__figure lab__figure--two">
-            <Link to="/services/metorship-programme/mobile-lab">
+            <Link to="/services/metorship-programme/mobile">
               <img
                 className="lab__figure--image"
                 src={LabMobile}
@@ -37,7 +37,7 @@ function LabsSection({ customStyle }) {
             </Link>
           </figure>
           <figure className="lab__figure lab__figure--three">
-            <Link to="/services/metorship-programme/fullstack-lab">
+            <Link to="/services/metorship-programme/fullstack">
               <img
                 className="lab__figure--image"
                 src={LabFullStack}
@@ -49,7 +49,7 @@ function LabsSection({ customStyle }) {
             </Link>
           </figure>
           <figure className="lab__figure lab__figure--four">
-            <Link to="/services/metorship-programme/backend-lab">
+            <Link to="/services/metorship-programme/backend">
               <img
                 className="lab__figure--image"
                 src={LabBackEnd}

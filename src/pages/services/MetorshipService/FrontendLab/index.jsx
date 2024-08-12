@@ -108,7 +108,7 @@ function index() {
                                     <p className="content--text">
                                         Master the fundamentals of web development and take your skills to the next level with HTML, CSS, JavaScript, and React.js!.
                                     </p>
-                                    <Link to="/complete-frontend-react-dev" className="profile--button-outline button">
+                                    <Link to="/services/metorship-programme/frontend/complete-frontend-react-dev" className="profile--button-outline button">
                                         Learn More
                                     </Link>
                                 </div>
@@ -137,7 +137,7 @@ function index() {
                                         empowers you to efficiently manage and collaborate on code using
                                         GitHub.
                                     </p>
-                                    <Link to="/git-github" className="profile--button-outline button">
+                                    <Link to="/services/metorship-programme/frontend/git-github" className="profile--button-outline button">
                                         Learn More
                                     </Link>
                                 </div>
@@ -167,7 +167,7 @@ function index() {
                                         development with our comprehensive course in HTML, CSS, and
                                         JavaScript.
                                     </p>
-                                    <Link to="/html-css-js-dev" className="profile--button-outline button">Learn More</Link>
+                                    <Link to="/services/metorship-programme/frontend/html-css-js-dev" className="profile--button-outline button">Learn More</Link>
                                 </div>
                                 <div className="course--info">
                                     <p><LuCalendarClock /> 9-weeks | Start: Completed.</p>
@@ -194,7 +194,7 @@ function index() {
                                         Firebase. Master modern web app development with server-side
                                         rendering and real-time data.
                                     </p>
-                                    <Link to="/next-dev" className="profile--button-outline button">
+                                    <Link to="/services/metorship-programme/frontend/next-dev" className="profile--button-outline button">
                                         Learn More
                                     </Link>
                                 </div>
@@ -223,7 +223,7 @@ function index() {
                                         and interactive web interfaces, and enhance your web development
                                         skills.
                                     </p>
-                                    <Link to="/react-dev" className="profile--button-outline button">
+                                    <Link to="/services/metorship-programme/frontend/react-dev" className="profile--button-outline button">
                                         Learn More
                                     </Link>
                                 </div>
@@ -251,7 +251,7 @@ function index() {
                                         web app development, both frontend and backend, and supercharge your
                                         coding skills. Start your journey to mastery today.
                                     </p>
-                                    <Link to="/js-ts-dev" className="profile--button-outline button">
+                                    <Link to="/services/metorship-programme/frontend/js-ts-dev" className="profile--button-outline button">
                                         Learn More
                                     </Link>
                                 </div>
@@ -278,7 +278,7 @@ function index() {
                                         Discover the potential of Vue.js. Master this progressive JavaScript
                                         framework for building dynamic and responsive web applications.
                                     </p>
-                                    <Link to="/vue-dev" className="profile--button-outline button">
+                                    <Link to="/services/metorship-programme/frontend/vue-dev" className="profile--button-outline button">
                                         Learn More
                                     </Link>
                                 </div>

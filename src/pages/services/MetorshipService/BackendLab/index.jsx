@@ -138,7 +138,7 @@ function index() {
                                         MongoDB. Learn to create robust and scalable server-side
                                         applications with these powerful technologies.
                                     </p>
-                                    <Link to="/node-dev" className="profile--button-outline button">
+                                    <Link to="/services/metorship-programme/backend/node-dev" className="profile--button-outline button">
                                         Learn More
                                     </Link>
                                 </div>
@@ -166,7 +166,7 @@ function index() {
                                         and MySQL. Master server-side scripting, utilize the Laravel
                                         framework, and manage databases effectively.
                                     </p>
-                                    <Link to="/php-dev" className="profile--button-outline button">
+                                    <Link to="/services/metorship-programme/backend/php-dev" className="profile--button-outline button">
                                         Learn More
                                     </Link>
                                 </div>
@@ -195,7 +195,7 @@ function index() {
                                         Master server-side scripting, data analytics and management, and
                                         build robust and scalable web applications.
                                     </p>
-                                    <Link to="/python-dev" className="profile--button-outline button">
+                                    <Link to="/services/metorship-programme/backend/python-dev" className="profile--button-outline button">
                                         Learn More
                                     </Link>
                                 </div>
@@ -222,7 +222,7 @@ function index() {
                                         Testing" course. Postman stands as a dynamic and indispensable tool
                                         for simplifying API testing processes.
                                     </p>
-                                    <Link to="/postman" className="profile--button-outline button">
+                                    <Link to="/services/metorship-programme/backend/postman" className="profile--button-outline button">
                                         Learn More
                                     </Link>
                                 </div>
@@ -251,7 +251,7 @@ function index() {
                                         build robust web applications and become a proficient web developer
                                         with this versatile combination.
                                     </p>
-                                    <Link to="/dotNet-dev" className="profile--button-outline button">
+                                    <Link to="/services/metorship-programme/backend/dotNet-dev" className="profile--button-outline button">
                                         Learn More
                                     </Link>
                                 </div>

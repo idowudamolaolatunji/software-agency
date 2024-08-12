@@ -110,7 +110,7 @@ function index() {
                                         development, craft dynamic web applications, and elevate your skills
                                         as a full-stack developer.
                                     </p>
-                                    <Link to="/mern-dev" className="profile--button-outline button">
+                                    <Link to="/services/metorship-programme/fullstack/mern-dev" className="profile--button-outline button">
                                         Learn More
                                     </Link>
                                 </div>
@@ -141,7 +141,7 @@ function index() {
                                         Laravel framework, harness the capabilities of Eloquent ORM, and
                                         manage MySQL databases effectively.
                                     </p>
-                                    <Link to="/php-laravel-dev" className="profile--button-outline button">
+                                    <Link to="/services/metorship-programme/fullstack/php-laravel-dev" className="profile--button-outline button">
                                         Learn More
                                     </Link>
                                 </div>
@@ -173,7 +173,7 @@ function index() {
                                         scripting, leverage the Pug templating engine for dynamic views, and
                                         harness MongoDB for efficient database scalability.
                                     </p>
-                                    <Link to="/express-pug-dev" className="profile--button-outline button">
+                                    <Link to="/services/metorship-programme/fullstack/express-pug-dev" className="profile--button-outline button">
                                         Learn More
                                     </Link>
                                 </div>
@@ -205,7 +205,7 @@ function index() {
                                         create dynamic web apps, and enhance your full-stack development
                                         expertise.
                                     </p>
-                                    <Link to="/merv-dev" className="profile--button-outline button">
+                                    <Link to="/services/metorship-programme/fullstack/merv-dev" className="profile--button-outline button">
                                         Learn More
                                     </Link>
                                 </div>

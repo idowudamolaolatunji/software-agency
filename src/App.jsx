@@ -100,30 +100,33 @@ function App() {
 
 
                         <Route path="/services/metorship-programme" element={<MetorshipService />}></Route>
-                        <Route path="/services/metorship-programme/mobile-lab" element={<MobileLab />}></Route>
-                        <Route path="/services/metorship-programme/backend-lab" element={<BackendLab />}></Route>
-                        <Route path="/services/metorship-programme/frontend-lab" element={<FrontendLab />}></Route>
-                        <Route path="/services/metorship-programme/fullstack-lab" element={<FullstackLab />}></Route>
+                        <Route path="/services/metorship-programme/mobile" element={<MobileLab />}></Route>
+                        <Route path="/services/metorship-programme/backend" element={<BackendLab />}></Route>
+                        <Route path="/services/metorship-programme/frontend" element={<FrontendLab />}></Route>
+                        <Route path="/services/metorship-programme/fullstack" element={<FullstackLab />}></Route>
 
                         {/* COURSES */}
-                        <Route path="/dotnet-dev" element={<DotNetDev />}></Route>
-                        <Route path="/express-pug-dev" element={<ExpressPugDev />}></Route>
-                        <Route path="/flutter-dev" element={<FlutterDev />}></Route>
-                        <Route path="/git-github" element={<GitGithub />}></Route>
-                        <Route path="/html-css-js-dev" element={<HtmlCssJsDev />}></Route>
-                        <Route path="/js-ts-dev" element={<JsTsDev />}></Route>
-                        <Route path="/mern-dev" element={<MernDev />}></Route>
-                        <Route path="/merv-dev" element={<MervDev />}></Route>
-                        <Route path="/next-dev" element={<NextDev />}></Route>
-                        <Route path="/node-dev" element={<NodeDev />}></Route>
-                        <Route path="/php-dev" element={<PhpDev />}></Route>
-                        <Route path="/php-laravel-dev" element={<PhpLaravelDev />}></Route>
-                        <Route path="/postman" element={<Postman />}></Route>
-                        <Route path="/python-dev" element={<PythonDev />}></Route>
-                        <Route path="/react-dev" element={<ReactDev />}></Route>
-                        <Route path="/react-native-dev" element={<ReactNativeDev />}></Route>
-                        <Route path="/vue-dev" element={<VueDev />}></Route>
-                        <Route path="/complete-frontend-react-dev" element={<FullReactDev />}></Route>
+                        <Route path="/services/metorship-programme/mobile/react-native-dev" element={<ReactNativeDev />}></Route>
+                        <Route path="/services/metorship-programme/mobile/flutter-dev" element={<FlutterDev />}></Route>
+
+                        <Route path="/services/metorship-programme/backend/node-dev" element={<NodeDev />}></Route>
+                        <Route path="/services/metorship-programme/backend/php-dev" element={<PhpDev />}></Route>
+                        <Route path="/services/metorship-programme/backend/dotnet-dev" element={<DotNetDev />}></Route>
+                        <Route path="/services/metorship-programme/backend/postman" element={<Postman />}></Route>
+                        <Route path="/services/metorship-programme/backend/python-dev" element={<PythonDev />}></Route>
+
+                        <Route path="/services/metorship-programme/frontend/git-github" element={<GitGithub />}></Route>
+                        <Route path="/services/metorship-programme/frontend/html-css-js-dev" element={<HtmlCssJsDev />}></Route>
+                        <Route path="/services/metorship-programme/frontend/js-ts-dev" element={<JsTsDev />}></Route>
+                        <Route path="/services/metorship-programme/frontend/next-dev" element={<NextDev />}></Route>
+                        <Route path="/services/metorship-programme/frontend/react-dev" element={<ReactDev />}></Route>
+                        <Route path="/services/metorship-programme/frontend/vue-dev" element={<VueDev />}></Route>
+                        <Route path="/services/metorship-programme/frontend/complete-frontend-react-dev" element={<FullReactDev />}></Route>
+
+                        <Route path="/services/metorship-programme/fullstack/express-pug-dev" element={<ExpressPugDev />}></Route>
+                        <Route path="/services/metorship-programme/fullstack/mern-dev" element={<MernDev />}></Route>
+                        <Route path="/services/metorship-programme/fullstack/merv-dev" element={<MervDev />}></Route>
+                        <Route path="/services/metorship-programme/fullstack/php-laravel-dev" element={<PhpLaravelDev />}></Route>
                     </Routes>
                 </BrowserRouter>
             </Suspense>
