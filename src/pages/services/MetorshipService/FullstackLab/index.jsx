@@ -25,10 +25,10 @@ function index() {
 
             <section className='section' style={{ paddingBottom: '0rem' }}>
                 <div className='container'>
-                    <LabHeroSection title={'Full Stack Lab'} welcome={`
-                        Welcome to the Full Stack Lab at Buildspire Ng, where you'll uncover the power of full stack development. Whether you're a coding novice or an experienced developer, our Full Stack Lab is your gateway to becoming a versatile tech professional who can create both frontend and backend solutions.
+                    <LabHeroSection title={'Full Stack Development Programme'} welcome={`
+                        Welcome to the Full Stack Development Programme at Buildspire Ng, where you'll uncover the power of full stack development. Whether you're a coding novice or an experienced developer, our Full Stack Development Programme is your gateway to becoming a versatile tech professional who can create both frontend and backend solutions.
                         `} description={`
-                            Full stack developers are in high demand, thanks to their ability to work on all aspects of a web application. At Buildspire Ng, we recognize the importance of full stack development in the tech industry. Our Full Stack Lab is designed to equip you with the comprehensive skills needed to build robust and scalable web applications.
+                            Full stack developers are in high demand, thanks to their ability to work on all aspects of a web application. At Buildspire Ng, we recognize the importance of full stack development in the tech industry. Our Full Stack Development Programme is designed to equip you with the comprehensive skills needed to build robust and scalable web applications.
                         `}  students={59} courses={4}>
                         <Marquee autoFill speed={30} class="full-stack--skills labs--skills">
                             <span class="skill">
@@ -83,10 +83,10 @@ function index() {
                                     <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a1/512.gif" alt="💡" width="12" height="12" />
                                 </picture>
                             </p>
-                            <h3 className="section__heading">Full-stack Lab Courses For You.</h3>
+                            <h3 className="section__heading">Full-stack Courses For You.</h3>
                             <p className="section__text">
                                 Here are some of Buildspire Ng mentorship transformative virtual courses awaiting
-                                your enrollment in the Full Stack Lab. Explore the comprehensive world of
+                                your enrollment in our Full Stack Development Programme. Explore the comprehensive world of
                                 full stack development and become a versatile tech professional who can
                                 create both frontend and backend solutions.
                             </p>

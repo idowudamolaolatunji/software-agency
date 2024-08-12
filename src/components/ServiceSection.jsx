@@ -6,7 +6,7 @@ import { sevicesData } from '../data';
 import { LuDot } from 'react-icons/lu';
 
 
-const TEXTS = ['Tech', 'Startup', 'Business', 'Software'];
+const TEXTS = ['Tech Mentorship', 'Digital Transformation', 'Business Solution', 'Software Solution', 'Ecommerce Management'];
 
 function ServiceSection({ page }) {
     const [index, setIndex] = useState(0);
@@ -36,7 +36,7 @@ function ServiceSection({ page }) {
                     <h2 className="section__heading">
                         Our Comprehensive
                         <TextTransition springConfig={presets.wobbly} inline={true} style={{ color: "#6b18eb" }}>{TEXTS[index % TEXTS.length]}</TextTransition>
-                        Solution Service
+                        Service
                     </h2>
                     <p className="section__text">Streamline, innovate, and dominate with our comprehensive solution service, designed to propel businesses forward in the ever-evolving digital age.</p>
                 </div>

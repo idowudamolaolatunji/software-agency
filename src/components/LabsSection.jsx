@@ -1,9 +1,9 @@
 import React from 'react';
 
-import LabFrontEnd from "../assets/images/frontend-lab.jpg"
-import LabMobile from "../assets/images/mobile-lab.jpg"
-import LabFullStack from "../assets/images/fullstack-lab.jpg"
-import LabBackEnd from "../assets/images/backend-lab.jpg"
+import FrontEnd from "../assets/images/frontend.jpg"
+import Mobile from "../assets/images/mobile.jpg"
+import FullStack from "../assets/images/fullstack.jpg"
+import BackEnd from "../assets/images/backend.jpg"
 import { Link } from 'react-router-dom';
 
 function LabsSection({ customStyle }) {
@@ -16,11 +16,11 @@ function LabsSection({ customStyle }) {
             <Link to="/services/metorship-programme/frontend">
               <img
                 className="lab__figure--image"
-                src={LabFrontEnd}
+                src={FrontEnd}
                 alt="buildspire labs images"
               />
               <div className="lab__figure--content">
-                <p>Frontend Lab</p>
+                <p>Frontend Developement</p>
               </div>
             </Link>
           </figure>
@@ -28,11 +28,11 @@ function LabsSection({ customStyle }) {
             <Link to="/services/metorship-programme/mobile">
               <img
                 className="lab__figure--image"
-                src={LabMobile}
+                src={Mobile}
                 alt="buildspire labs images"
               />
               <div className="lab__figure--content">
-                <p>Mobile Lab</p>
+                <p>Mobile Developement</p>
               </div>
             </Link>
           </figure>
@@ -40,11 +40,11 @@ function LabsSection({ customStyle }) {
             <Link to="/services/metorship-programme/fullstack">
               <img
                 className="lab__figure--image"
-                src={LabFullStack}
+                src={FullStack}
                 alt="buildspire labs images"
               />
               <div className="lab__figure--content">
-                <p>Full-Stack Lab</p>
+                <p>Full-Stack Developement</p>
               </div>
             </Link>
           </figure>
@@ -52,19 +52,19 @@ function LabsSection({ customStyle }) {
             <Link to="/services/metorship-programme/backend">
               <img
                 className="lab__figure--image"
-                src={LabBackEnd}
+                src={BackEnd}
                 alt="buildspire labs images"
               />
               <div className="lab__figure--content">
-                <p>Backend Lab</p>
+                <p>Backend Developement</p>
               </div>
             </Link>
           </figure>
         </div>
         <div className="lab__text--box">
           <div className="section__heading--box">
-          <p className="section__subtitle">Labs</p>
-          <h3 className="section__heading">Find your desired lab.</h3>
+            {/* <p className="section__subtitle">Labs</p> */}
+            <h3 className="section__heading">Find your desired programme.</h3>
           </div>
           <p className="lab__text">
             At Buildspire Ng, we offer a diverse array of labs tailored to meet your

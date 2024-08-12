@@ -23,10 +23,10 @@ function index() {
 
             <section className='section' style={{ paddingBottom: '0rem' }}>
                 <div className='container'>
-                    <LabHeroSection title={'Frontend Lab'} welcome={`
-                        Welcome to the Frontend Lab at Buildspire Ng, where creativity meets technology and innovation. Are you ready to embark on an exciting journey into the world of frontend web development? Whether you're a complete beginner taking your first steps or an experienced developer looking to refine your skills, our Frontend Lab is your gateway to a world of possibilities.
+                    <LabHeroSection title={'Frontend Development'} welcome={`
+                        Welcome to the Frontend Development Programme at Buildspire Ng, where creativity meets technology and innovation. Are you ready to embark on an exciting journey into the world of frontend web development? Whether you're a complete beginner taking your first steps or an experienced developer looking to refine your skills, our Frontend Development Programme is your gateway to a world of possibilities.
                         `} description={`
-                            At Buildspire Ng, we understand the importance of the frontend in web development. It's the user interface—the face of your web applications. The Frontend Lab is designed to equip you with the essential skills and knowledge to create stunning, interactive websites that captivate users and leave a lasting impression.
+                            At Buildspire Ng, we understand the importance of the frontend in web development. It's the user interface—the face of your web applications. The Frontend Development Programme is designed to equip you with the essential skills and knowledge to create stunning, interactive websites that captivate users and leave a lasting impression.
                         `} students={93} courses={7}>
                         <Marquee autoFill speed={30} className="frontend--skills labs--skills">
                             <span className="skill">
@@ -82,10 +82,10 @@ function index() {
                                     <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a1/512.gif" alt="💡" width="12" height="12" />
                                 </picture>
                             </p>
-                            <h3 className="section__heading">Frontend Lab Courses For You.</h3>
+                            <h3 className="section__heading">Frontend Courses For You.</h3>
                             <p className="section__text">
                                 Here are some of Buildspire Ng mentorship transformative virtual courses awaiting
-                                your enrollment in the Frontend Lab. Begin your journey into the
+                                your enrollment in our Frontend Development Programme. Begin your journey into the
                                 captivating world of frontend web development and acquire the essential
                                 knowledge and hands-on experience to build stunning, interactive websites
                                 that captivate users and leave a lasting impression.

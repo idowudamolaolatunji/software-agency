@@ -407,7 +407,7 @@
         flex-wrap: nowrap;
         width: 100%;
     }
-    .lab__text--box .section__heading {
+    .lab__text--box .section__subtitle {
         display: none;
     }
     .lab__section--stat {

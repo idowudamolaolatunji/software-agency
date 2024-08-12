@@ -25,10 +25,10 @@ function index() {
 
             <section className='section' style={{ paddingBottom: '0rem' }}>
                 <div className='container'>
-                    <LabHeroSection title={'Mobile Lab'} welcome={`
-                            Welcome to the Mobile Lab at Buildspire Ng, your launchpad into the dynamic realm of mobile app development. Are you ready to dive into the exciting world of mobile technology? Whether you're a novice eager to start building mobile apps or an experienced developer seeking to expand your skill set, our Mobile Lab is here to empower you.
+                    <LabHeroSection title={'Mobile Development Programme'} welcome={`
+                            Welcome to the Mobile Development Programme at Buildspire Ng, your launchpad into the dynamic realm of mobile app development. Are you ready to dive into the exciting world of mobile technology? Whether you're a novice eager to start building mobile apps or an experienced developer seeking to expand your skill set, our Mobile Development Programme is here to empower you.
                         `} description={`
-                            In today's digital age, mobile apps are ubiquitous, and they play a crucial role in our daily lives. The Mobile Lab at Buildspire Ng is your gateway to mastering the skills needed to create innovative, user-friendly mobile applications. We understand the importance of mobile app development, and our lab is meticulously designed to equip you with the essential knowledge and hands-on experience to craft mobile solutions that resonate with users.
+                            In today's digital age, mobile apps are ubiquitous, and they play a crucial role in our daily lives. The Mobile Development Programme at Buildspire Ng is your gateway to mastering the skills needed to create innovative, user-friendly mobile applications. We understand the importance of mobile app development, and our Development Programme is meticulously designed to equip you with the essential knowledge and hands-on experience to craft mobile solutions that resonate with users.
                         `} students={18} courses={2}>
                         <Marquee autoFill speed={30} className="mobile--skills labs--skills">
                             <span className="skill">
@@ -101,10 +101,10 @@ function index() {
                                     <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a1/512.gif" alt="💡" width="12" height="12" />
                                 </picture>
                             </p>
-                            <h3 className="section__heading">Mobile Lab Courses For You.</h3>
+                            <h3 className="section__heading">Mobile Courses For You.</h3>
                             <p className="section__text">
                                 Here are some of Buildspire Ng mentorship transformative virtual courses awaiting
-                                your enrollment in the Mobile Lab. Embark on your journey into the dynamic
+                                your enrollment in our Mobile Development Programme. Embark on your journey into the dynamic
                                 realm of mobile app development and learn to build innovative and
                                 user-friendly mobile applications.
                             </p>
