@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Header from '../../components/Header'
-import CtaSection from '../../components/CtaSection'
+import ContactForm from '../../components/contactForm'
 import Footer from '../../components/Footer'
 
 function index() {
@@ -12,8 +12,7 @@ function index() {
     return (
         <>
             <Header />
-            {/* <div>index</div> */}
-            <CtaSection />
+            <ContactForm />
             <Footer />
         </>
     )

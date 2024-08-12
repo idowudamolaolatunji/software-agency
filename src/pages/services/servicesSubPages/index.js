@@ -1,5 +1,5 @@
 
-import MetorshipService from './MetorshipService';
+// import MetorshipService from '../MentorshipLabs';
 import ConsultingService from './ConsultingService';
 import AnalyticService from './AnalyticService';
 import WireframeService from './WireframeService';
@@ -10,7 +10,7 @@ import IdentificationServices from './IdentificationServices';
 
 
 export {
-  MetorshipService,
+  // MetorshipService,
   ConsultingService,
   AnalyticService,
   WireframeService,

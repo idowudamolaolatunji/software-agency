@@ -61,6 +61,9 @@ function Header() {
                             <NavLink className={pathname === "/services" ? "nav--active" : ""} to="/services">Services</NavLink>
                         </li>
                         <li className="nav--item">
+                            <NavLink className={pathname.includes("metorship-programme") ? "nav--active" : ""} to="/services/metorship-programme">Tech Labs</NavLink>
+                        </li>
+                        <li className="nav--item">
                             <NavLink className={pathname === "/steps" ? "nav--active" : ""} to="/steps">Our Process</NavLink>
                         </li>
                         <li className="nav--item">
@@ -119,6 +122,9 @@ function Header() {
                             </li>
                             <li className="nav--item">
                                 <NavLink className={pathname === "/services" ? "nav--active" : ""} to="/services">Services</NavLink>
+                            </li>
+                            <li className="nav--item">
+                                <NavLink className={pathname.includes("metorship-programme") ? "nav--active" : ""} to="/services/metorship-programme">Tech Labs</NavLink>
                             </li>
                             <li className="nav--item">
                                 <NavLink className={pathname === "/steps" ? "nav--active" : ""} to="/steps">Our Process</NavLink>
@@ -185,6 +191,9 @@ function Header() {
                                     </li>
                                     <li className="nav--item">
                                         <NavLink className={pathname === "/services" ? "nav--active" : ""} to="/services">Services</NavLink>
+                                    </li>
+                                    <li className="nav--item">
+                                        <NavLink className={pathname.includes("metorship-programme") ? "nav--active" : ""} to="/services/metorship-programme">Tech Labs</NavLink>
                                     </li>
                                     <li className="nav--item">
                                         <NavLink className={pathname === "/steps" ? "nav--active" : ""} to="/steps">Our Process</NavLink>

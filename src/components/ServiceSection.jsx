@@ -19,7 +19,6 @@ function ServiceSection({ page }) {
         return () => clearTimeout(intervalId);
     }, []);
 
-
     return (
         <section className='section service__section' style={page ? { paddingTop: "6.2rem " } : {}}>
             <div className="container">

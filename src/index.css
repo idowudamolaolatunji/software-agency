@@ -277,7 +277,11 @@ input::-webkit-inner-spin-button {
 		transform: rotateY(-180deg);
 	}
 }
-
+.form--flex {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 4rem;
+}
 
 
 
@@ -294,6 +298,10 @@ input::-webkit-inner-spin-button {
 	}
 	.section__heading {
 		font-size: 3.2rem;
+	}
+	.form--flex {
+		grid-template-columns: 1fr;
+		gap: 2rem;
 	}
 }
 

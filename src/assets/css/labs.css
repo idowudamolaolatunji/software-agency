@@ -1,0 +1,183 @@
+.lab__section--content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.4rem;
+    overflow: hidden;
+}
+.lab__section--heading {
+    font-size: 3.6rem;
+    margin-bottom: 1.4rem;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.lab__section--heading picture {
+    height: 4rem;
+}
+.lab__section--text {
+    /* font-size: 1.65rem; */
+    line-height: 1.6;
+}
+
+.lab__section--info, .lab__section--stat, .lab__section--box, .lab__section--stat p {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+}
+.lab__section--image-box {
+    display: flex;
+    align-items: center;
+}
+.lab__section--image-box img {
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    border: 2.4px solid var(--sub-border-color);
+    margin-left: -2.4rem;
+}
+.lab__section--image-box + p {
+    margin-left: -.8rem;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: var(--sub-text-color);
+}
+.lab__section--stat p {
+    color: var(--sub-text-color);
+    gap: .4rem;
+}
+.lab__section--stat p .icon {
+    color: var(--sub-btn-color);
+}
+
+
+.lab-course__section {
+    padding-top: 8rem;
+}
+
+
+
+/*  */
+.lab__section--content {
+    position: relative;
+}
+.lab__Section-bg-img {
+    position: absolute;
+    max-width: 30rem;
+}
+.lab__Section-bg-img img {
+    height: 12rem;
+    z-index: -1;
+    filter: saturate(0);
+    opacity: .2;
+}
+.lab__grids {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 8rem;
+    text-align: left;
+}
+.lab__grids-content-one, .lab__grids-content-two {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    align-items: flex-start;
+}
+.lab-course-button {
+    margin: .8rem 0 .6rem;
+    padding: 1.2rem 1.6rem;
+}
+.lab__grids-content-two {
+    background-color: var(--section-figure);
+    border-radius: 1rem;
+    padding: 2.4rem;
+    gap: 1.6rem;
+    justify-content: center;
+    align-self: center;
+}
+.lab__grids-content-two p .icon {
+    font-size: 1.8rem;
+    color: var(--text-color);
+}
+.lab__grids-content-two p {
+    line-height: 1.4;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    font-size: 1.6rem;
+    color: var(--sub-text-color);
+}
+.lab-course-price {
+    display: flex;
+    align-items: flex-end;
+    gap: 1.2rem;
+}
+.lab-course-price span {
+    font-size: 2.8rem;
+}
+
+
+/*  */
+/* .lab-what__section {} */
+/* .lab-what__section .lab__grids {} */
+.lab-what__section .section__subtitle {
+    text-align: left !important;
+}
+.lab-what__section ul {
+    list-style: decimal;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: var(--text-color);
+    margin: 4.2rem 0 0 1rem;
+}
+.lab-what__images {
+    margin: 8rem auto 0;
+    width: auto;
+}
+.lab-what__images img {
+    margin-top: .8rem;
+    transition: all .35s ease-in-out;
+}
+.lab-what__images img.img-svg {
+    height: 8.6rem;
+}
+.lab-what__images img:hover {
+    transform: rotate(15deg);
+}
+.lab-checkout-hero__section {
+    padding: 24rem 0 12rem;
+    text-align: center;
+}
+.lab__section-checkout-button {
+    padding: 1.2rem 2.4rem;
+    border-radius: 1.2rem;
+    color: #444;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    display: inline-block;
+}
+.lab-checkout-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    justify-content: center;
+    padding: 2rem ;
+}
+.lab__section-checkout-button.main {
+    box-shadow: 0 0 0 .2rem #444;
+}
+.lab__section-checkout-button.outline {
+    box-shadow: 0 0 0 .2rem #0035fd;
+    color: #0035fd;
+
+}

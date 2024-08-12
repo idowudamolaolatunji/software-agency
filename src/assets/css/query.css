@@ -134,6 +134,41 @@
     }
 
 
+
+    .lab__grid {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .lab__grids {
+        display: flex;
+        flex-direction: column;
+    }
+    .lab__grids-content-two {
+        padding: 2.8rem 1.8rem;
+    }
+    .labs__cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .lab__figure--image {
+        width: 100%;
+    }
+    .lab-what__images {
+        margin-top: 0rem;
+    }
+    .lab-what__images img {
+        margin-top: 1.6rem;
+    }
+    .lab-what__section .lab__grids {
+        gap: 3.2rem;
+    }
+    .courses__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 4.2rem;
+    }
+
+
     /* ============================================= */
     /* SERVICE AND HOW SECTION */
     /* ============================================= */
@@ -267,6 +302,18 @@
     }
 
 
+    .lab__section--info {
+        flex-direction: column;
+    }
+    .courses__cards {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+    }
+    .lab__text {
+        text-align: center;
+    }
+
+
     /* ============================================= */
     /* SERVICE AND HOW SECTION */
     /* ============================================= */
@@ -354,6 +401,14 @@
     }
     
 
+    .labs__cards {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    
+
 
     /* ============================================= */
     /* PORTFOLIO SECTION */
@@ -397,6 +452,11 @@
     .cta--heading {
         font-size: 2.8rem;
         margin-bottom: 1.8rem;
+    }
+    .contact__heading {
+        font-size: 3.6rem;
+        line-height: 1.28;
+        text-align: center;
     }
 
 
