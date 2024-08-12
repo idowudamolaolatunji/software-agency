@@ -32,24 +32,24 @@ import {
 
 
 // COURSES
-import DotNetDev from "./pages/Courses/DotNetDev";
-import ExpressPugDev from "./pages/Courses/ExpressPugDev";
-import FlutterDev from "./pages/Courses/FlutterDev";
-import GitGithub from "./pages/Courses/GitGithub";
-import HtmlCssJsDev from "./pages/Courses/HtmlCssJsDev";
-import JsTsDev from "./pages/Courses/JsTsDev";
-import MernDev from "./pages/Courses/MernDev";
-import MervDev from "./pages/Courses/MervDev";
-import NextDev from "./pages/Courses/NextDev";
-import NodeDev from "./pages/Courses/NodeDev";
-import PhpDev from "./pages/Courses/PhpDev";
-import PhpLaravelDev from "./pages/Courses/PhpLaravelDev";
-import Postman from "./pages/Courses/Postman";
-import PythonDev from "./pages/Courses/PythonDev";
-import ReactDev from "./pages/Courses/ReactDev";
-import ReactNativeDev from "./pages/Courses/ReactNativeDev";
-import VueDev from "./pages/Courses/VueDev";
-import FullReactDev from "./pages/Courses/FullReactDev";
+const DotNetDev = lazy(() => import("./pages/Courses/DotNetDev"));
+const ExpressPugDev = lazy(() => import("./pages/Courses/ExpressPugDev"));
+const FlutterDev = lazy(() => import("./pages/Courses/FlutterDev"));
+const GitGithub = lazy(() => import("./pages/Courses/GitGithub"));
+const HtmlCssJsDev = lazy(() => import("./pages/Courses/HtmlCssJsDev"));
+const JsTsDev = lazy(() => import("./pages/Courses/JsTsDev"));
+const MernDev = lazy(() => import("./pages/Courses/MernDev"));
+const MervDev = lazy(() => import("./pages/Courses/MervDev"));
+const NextDev = lazy(() => import("./pages/Courses/NextDev"));
+const NodeDev = lazy(() => import("./pages/Courses/NodeDev"));
+const PhpDev = lazy(() => import("./pages/Courses/PhpDev"));
+const PhpLaravelDev = lazy(() => import("./pages/Courses/PhpLaravelDev"));
+const Postman = lazy(() => import("./pages/Courses/Postman"));
+const PythonDev = lazy(() => import("./pages/Courses/PythonDev"));
+const ReactDev = lazy(() => import("./pages/Courses/ReactDev"));
+const ReactNativeDev = lazy(() => import("./pages/Courses/ReactNativeDev"));
+const VueDev = lazy(() => import("./pages/Courses/VueDev"));
+const FullReactDev = lazy(() => import("./pages/Courses/FullReactDev"));
 
 
 function App() {
