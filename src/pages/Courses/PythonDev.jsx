@@ -6,7 +6,7 @@ import CtaSection from '../../components/CtaSection';
 function PythonDev() {
 
     useEffect(function () {
-        document.title = 'CodeLab Africa | Learning Python + PostgreSQL'
+        document.title = 'Buildspire Ng | Learning Python + PostgreSQL'
         window.scrollTo(0, 0);
     }, []);
 

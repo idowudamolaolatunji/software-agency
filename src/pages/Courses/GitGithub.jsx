@@ -6,7 +6,7 @@ import CtaSection from '../../components/CtaSection';
 function GitGithub() {
 
     useEffect(function () {
-        document.title = 'CodeLab Africa | Version Control GitHub Mastery'
+        document.title = 'Buildspire Ng | Version Control GitHub Mastery'
         window.scrollTo(0, 0);
     }, []);
 

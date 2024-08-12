@@ -11,7 +11,7 @@ function MernDev() {
     const navigate = useNavigate();
 
     useEffect(function () {
-        document.title = 'CodeLab Africa | Full-Stack Development with MERN Stack'
+        document.title = 'Buildspire Ng | Full-Stack Development with MERN Stack'
         window.scrollTo(0, 0);
     }, []);
 

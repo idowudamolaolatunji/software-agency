@@ -9,7 +9,7 @@ function ReactDev() {
     const navigate = useNavigate();
 
     useEffect(function () {
-        document.title = 'CodeLab Africa | React.js Frontend Development.'
+        document.title = 'Buildspire Ng | React.js Frontend Development.'
         window.scrollTo(0, 0);
     }, [])
 

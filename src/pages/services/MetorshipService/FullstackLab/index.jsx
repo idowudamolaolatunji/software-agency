@@ -15,7 +15,7 @@ import LabHeroSection from '../../../../components/LabHeroSection';
 function index() {
     useEffect(function () {
         window.scrollTo(0, 0);
-        document.title = 'CodeLab Africa | Full-Stack Lab'
+        document.title = 'Buildspire Ng | Full-Stack Lab'
     }, []);
 
     return (
@@ -25,9 +25,9 @@ function index() {
             <section className='section'>
                 <div className='container'>
                     <LabHeroSection title={'Full Stack Lab'} welcome={`
-                        Welcome to the Full Stack Lab at CodeLab Africa, where you'll uncover the power of full stack development. Whether you're a coding novice or an experienced developer, our Full Stack Lab is your gateway to becoming a versatile tech professional who can create both frontend and backend solutions.
+                        Welcome to the Full Stack Lab at Buildspire Ng, where you'll uncover the power of full stack development. Whether you're a coding novice or an experienced developer, our Full Stack Lab is your gateway to becoming a versatile tech professional who can create both frontend and backend solutions.
                         `} description={`
-                            Full stack developers are in high demand, thanks to their ability to work on all aspects of a web application. At CodeLab Africa, we recognize the importance of full stack development in the tech industry. Our Full Stack Lab is designed to equip you with the comprehensive skills needed to build robust and scalable web applications.
+                            Full stack developers are in high demand, thanks to their ability to work on all aspects of a web application. At Buildspire Ng, we recognize the importance of full stack development in the tech industry. Our Full Stack Lab is designed to equip you with the comprehensive skills needed to build robust and scalable web applications.
                         `}  students={59} courses={4}>
                         <Marquee autoFill speed={30} class="full-stack--skills labs--skills">
                             <span class="skill">
@@ -75,7 +75,7 @@ function index() {
                             <p className="section__subtitle">Lab Courses</p>
                             <h3 className="section__heading">Full-stack Lab Courses For You.</h3>
                             <p className="section__text">
-                                Here are some of CodeLab Africa's transformative virtual courses awaiting
+                                Here are some of Buildspire Ng mentorship transformative virtual courses awaiting
                                 your enrollment in the Full Stack Lab. Explore the comprehensive world of
                                 full stack development and become a versatile tech professional who can
                                 create both frontend and backend solutions.

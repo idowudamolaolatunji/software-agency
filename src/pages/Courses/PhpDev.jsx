@@ -6,7 +6,7 @@ import CtaSection from '../../components/CtaSection'
 function PhpDev() {
 
     useEffect(function () {
-        document.title = 'CodeLab Africa | Ultimate PHP + MySQL Mastery'
+        document.title = 'Buildspire Ng | Ultimate PHP + MySQL Mastery'
         window.scrollTo(0, 0);
     }, [])
 

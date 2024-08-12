@@ -6,7 +6,7 @@ import CtaSection from '../../components/CtaSection'
 function VueDev() {
 
     useEffect(function () {
-        document.title = 'CodeLab Africa | Learn Frontend with Vue.js'
+        document.title = 'Buildspire Ng | Learn Frontend with Vue.js'
         window.scrollTo(0, 0);
     }, [])
 

@@ -6,7 +6,7 @@ import CtaSection from '../../components/CtaSection';
 function NextDev() {
 
     useEffect(function () {
-        document.title = 'CodeLab Africa | The Ultimate Next.js Development Course'
+        document.title = 'Buildspire Ng | The Ultimate Next.js Development Course'
         window.scrollTo(0, 0);
     }, []);
 

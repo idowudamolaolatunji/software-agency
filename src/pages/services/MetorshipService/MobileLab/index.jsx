@@ -15,7 +15,7 @@ import CtaSection from '../../../../components/CtaSection';
 function index() {
     useEffect(function () {
         window.scrollTo(0, 0);
-        document.title = 'CodeLab Africa | Mobile Lab'
+        document.title = 'Buildspire Ng | Mobile Lab'
     }, []);
 
     return (
@@ -24,9 +24,9 @@ function index() {
             <section className='section'>
                 <div className='container'>
                     <LabHeroSection title={'Mobile Lab'} welcome={`
-                            Welcome to the Mobile Lab at CodeLab Africa, your launchpad into the dynamic realm of mobile app development. Are you ready to dive into the exciting world of mobile technology? Whether you're a novice eager to start building mobile apps or an experienced developer seeking to expand your skill set, our Mobile Lab is here to empower you.
+                            Welcome to the Mobile Lab at Buildspire Ng, your launchpad into the dynamic realm of mobile app development. Are you ready to dive into the exciting world of mobile technology? Whether you're a novice eager to start building mobile apps or an experienced developer seeking to expand your skill set, our Mobile Lab is here to empower you.
                         `} description={`
-                            In today's digital age, mobile apps are ubiquitous, and they play a crucial role in our daily lives. The Mobile Lab at CodeLab Africa is your gateway to mastering the skills needed to create innovative, user-friendly mobile applications. We understand the importance of mobile app development, and our lab is meticulously designed to equip you with the essential knowledge and hands-on experience to craft mobile solutions that resonate with users.
+                            In today's digital age, mobile apps are ubiquitous, and they play a crucial role in our daily lives. The Mobile Lab at Buildspire Ng is your gateway to mastering the skills needed to create innovative, user-friendly mobile applications. We understand the importance of mobile app development, and our lab is meticulously designed to equip you with the essential knowledge and hands-on experience to craft mobile solutions that resonate with users.
                         `} students={18} courses={3}>
                         <Marquee autoFill speed={30} className="mobile--skills labs--skills">
                             <span className="skill">
@@ -91,7 +91,7 @@ function index() {
                         <p className="section__subtitle">Lab Courses</p>
                         <h3 className="section__heading">Mobile Lab Courses For You.</h3>
                         <p className="section__text">
-                            Here are some of CodeLab Africa's transformative virtual courses awaiting
+                            Here are some of Buildspire Ng mentorship transformative virtual courses awaiting
                             your enrollment in the Mobile Lab. Embark on your journey into the dynamic
                             realm of mobile app development and learn to build innovative and
                             user-friendly mobile applications.

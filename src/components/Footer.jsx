@@ -19,7 +19,7 @@ function Footer() {
                 <div className='footer--item'>
                     <img src={!isDarkMode ? logo_img : logo_img_white} alt='buildspire logo' className='footer--logo' />
                     <p className='copy-right'>
-                        © 2024 BuildSpire Ltd.
+                        © 2024 BuildSpire Ng.
                         <span>Designed & Developed by BuildSpire</span>
                     </p>
                 </div>

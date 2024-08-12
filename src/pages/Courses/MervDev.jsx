@@ -6,7 +6,7 @@ import CtaSection from '../../components/CtaSection'
 function MervDev() {
 
     useEffect(function () {
-        document.title = 'CodeLab Africa | Full-Stack Development with MERV Stack'
+        document.title = 'Buildspire Ng | Full-Stack Development with MERV Stack'
         window.scrollTo(0, 0);
     }, [])
 

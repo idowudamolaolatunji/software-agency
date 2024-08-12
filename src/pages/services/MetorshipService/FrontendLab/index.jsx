@@ -13,7 +13,7 @@ import CtaSection from '../../../../components/CtaSection'
 
 function index() {
     useEffect(function () {
-        document.title = 'CodeLab Africa | Frontend Lab'
+        document.title = 'Buildspire Ng | Frontend Lab'
         window.scrollTo(0, 0);
     }, [])
 
@@ -24,9 +24,9 @@ function index() {
             <section className='section'>
                 <div className='container'>
                     <LabHeroSection title={'Frontend Lab'} welcome={`
-                        Welcome to the Frontend Lab at CodeLab Africa, where creativity meets technology and innovation. Are you ready to embark on an exciting journey into the world of frontend web development? Whether you're a complete beginner taking your first steps or an experienced developer looking to refine your skills, our Frontend Lab is your gateway to a world of possibilities.
+                        Welcome to the Frontend Lab at Buildspire Ng, where creativity meets technology and innovation. Are you ready to embark on an exciting journey into the world of frontend web development? Whether you're a complete beginner taking your first steps or an experienced developer looking to refine your skills, our Frontend Lab is your gateway to a world of possibilities.
                         `} description={`
-                            At CodeLab Africa, we understand the importance of the frontend in web development. It's the user interface—the face of your web applications. The Frontend Lab is designed to equip you with the essential skills and knowledge to create stunning, interactive websites that captivate users and leave a lasting impression.
+                            At Buildspire Ng, we understand the importance of the frontend in web development. It's the user interface—the face of your web applications. The Frontend Lab is designed to equip you with the essential skills and knowledge to create stunning, interactive websites that captivate users and leave a lasting impression.
                         `} students={93} courses={6}>
                         <Marquee autoFill speed={30} className="frontend--skills labs--skills">
                             <span className="skill">
@@ -75,7 +75,7 @@ function index() {
                             <p className="section__subtitle">Lab Courses</p>
                             <h3 className="section__heading">Frontend Lab Courses For You.</h3>
                             <p className="section__text">
-                                Here are some of CodeLab Africa's transformative virtual courses awaiting
+                                Here are some of Buildspire Ng mentorship transformative virtual courses awaiting
                                 your enrollment in the Frontend Lab. Begin your journey into the
                                 captivating world of frontend web development and acquire the essential
                                 knowledge and hands-on experience to build stunning, interactive websites

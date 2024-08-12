@@ -6,7 +6,7 @@ import CtaSection from '../../components/CtaSection'
 function ReactNativeDev() {
 
     useEffect(function () {
-        document.title = 'CodeLab Africa | The Ultimate React Native Mastery'
+        document.title = 'Buildspire Ng | The Ultimate React Native Mastery'
         window.scrollTo(0, 0);
     }, [])
 

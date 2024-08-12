@@ -6,7 +6,7 @@ import CtaSection from '../../components/CtaSection'
 function ExpressPugDev() {
 
     useEffect(function () {
-        document.title = 'CodeLab Africa | Server-side Express Pug Template Engine.'
+        document.title = 'Buildspire Ng | Server-side Express Pug Template Engine.'
         window.scrollTo(0, 0);
     }, [])
 

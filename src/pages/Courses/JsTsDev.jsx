@@ -6,7 +6,7 @@ import CtaSection from '../../components/CtaSection'
 function JsTsDev() {
 
     useEffect(function () {
-        document.title = 'CodeLab Africa | Advanced JavaScript + TypeScript'
+        document.title = 'Buildspire Ng | Advanced JavaScript + TypeScript'
         window.scrollTo(0, 0);
     }, [])
 

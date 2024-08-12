@@ -6,7 +6,7 @@ import CtaSection from '../../components/CtaSection';
 function DotNetDev() {
 
     useEffect(function () {
-        document.title = 'CodeLab Africa | Comprehensive .NET Core + mySQL'
+        document.title = 'Buildspire Ng | Comprehensive .NET Core + mySQL'
         window.scrollTo(0, 0);
     }, []);
 

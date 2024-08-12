@@ -6,7 +6,7 @@ import CtaSection from '../../components/CtaSection';
 function Postman() {
 
     useEffect(function () {
-        document.title = 'CodeLab Africa | Postman API Testing'
+        document.title = 'Buildspire Ng | Postman API Testing'
         window.scrollTo(0, 0);
     }, []);
 

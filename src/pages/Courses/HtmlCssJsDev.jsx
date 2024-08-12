@@ -6,7 +6,7 @@ import CtaSection from '../../components/CtaSection';
 function HtmlCssJsDev() {
 
     useEffect(function () {
-        document.title = 'CodeLab Africa | The Comprehensive HTML, CSS, and JavaScript course'
+        document.title = 'Buildspire Ng | The Comprehensive HTML, CSS, and JavaScript course'
         window.scrollTo(0, 0);
     }, []);
 

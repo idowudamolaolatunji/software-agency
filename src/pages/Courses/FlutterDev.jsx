@@ -6,7 +6,7 @@ import CtaSection from '../../components/CtaSection'
 function FlutterDev() {
 
     useEffect(function () {
-        document.title = 'CodeLab Africa | Mobile Development with Dart + Flutter'
+        document.title = 'Buildspire Ng | Mobile Development with Dart + Flutter'
         window.scrollTo(0, 0);
     }, [])
 

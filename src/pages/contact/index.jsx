@@ -6,7 +6,7 @@ import Footer from '../../components/Footer'
 function index() {
 
     useEffect(function () {
-        document.title = 'Buildspire - Contact Us'
+        document.title = 'Buildspire Ng- Contact Us'
     }, []);
 
     return (

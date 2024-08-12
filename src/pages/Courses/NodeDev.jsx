@@ -6,7 +6,7 @@ import CtaSection from '../../components/CtaSection'
 function NodeDev() {
 
     useEffect(function () {
-        document.title = 'CodeLab Africa | Backend Development with Node, Express + MongoDB'
+        document.title = 'Buildspire Ng | Backend Development with Node, Express + MongoDB'
         window.scrollTo(0, 0);
     }, [])
 
