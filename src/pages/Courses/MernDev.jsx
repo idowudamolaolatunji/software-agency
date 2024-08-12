@@ -58,11 +58,7 @@ function MernDev() {
                                             <i className="fi fi-rr-clock" /> 1½hrs / Class
                                         </p>
                                     </span>
-                                    {/* <a href="/checkout.html" class="lab-course-button">Enroll Now</a> */}
-                                    {/* <button onClick={() => navigate('/checkpoint')} data-info="Full-stack Development With MERN Stack" className="lab-course-button avaliable"> */}
-                                    <a target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSfWRnBhUxXnm1mIASt5LCLnArqZG3aODySSolx8UyhDGQVdPg/viewform?usp=pp_url" className="lab-course-button avaliable">
-                                        Enroll Now!
-                                    </a>
+                                    <button className="lab-course-button not-avaliable"> Completed</button>
                                     <span className="lab__section--stat">
                                         <p>
                                             <i className="fi fi-rr-users-alt" />{" "}
@@ -161,9 +157,6 @@ function MernDev() {
                                         and deploy their full-stack applications efficiently.
                                     </li>
                                 </ul>
-                                <a target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSfWRnBhUxXnm1mIASt5LCLnArqZG3aODySSolx8UyhDGQVdPg/viewform?usp=pp_url" style={{ display: 'inline-block', marginTop: '2rem' }} className="lab-course-button avaliable">
-                                    Enroll Now!
-                                </a>
                             </div>
                             <div className="lab-what__images">
                                 <img src="../../../svgs/mongodb.svg" alt="full-stack dev" />
@@ -184,10 +177,6 @@ function MernDev() {
 
             <CtaSection />
             <Footer />
-
-            {/* {showCheckOutModal && (
-                <CheckoutModal />
-            )} */}
         </>
     )
 }

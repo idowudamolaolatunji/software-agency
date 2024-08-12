@@ -875,6 +875,25 @@ a.cta--btn {
 	transform: translateY(-0.1rem);
 	border: 2px solid rgba(255, 255, 255, 0.8);
 }
+.new::after {
+	display: inline-block;
+	width: 16rem;
+	height: 3.2rem;
+	font-size: 1.6rem;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 2rem;
+	right: -4.2rem;
+	transform: rotate(45deg);
+	color: #fff;
+}
+.new::after {
+	content: "New";
+	background-color: #6b18eb;
+}
 
 .course__image--box {
 	display: flex;

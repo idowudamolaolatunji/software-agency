@@ -87,10 +87,20 @@
     gap: 1.4rem;
     align-items: flex-start;
 }
-.lab-course-button {
+a.lab-course-button, button.lab-course-button {
     margin: .8rem 0 .6rem;
     padding: 1.2rem 1.6rem;
+    background-color: #6b18eb;
+    color: #fff;
+    border-radius: .2rem;
+
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+
 }
+
+
 .lab__grids-content-two {
     background-color: var(--section-figure);
     border-radius: 1rem;
@@ -122,8 +132,9 @@
 
 
 /*  */
-/* .lab-what__section {} */
-/* .lab-what__section .lab__grids {} */
+.lab-what__section {
+    background-color: var(--section-grey);
+}
 .lab-what__section .section__subtitle {
     text-align: left !important;
 }

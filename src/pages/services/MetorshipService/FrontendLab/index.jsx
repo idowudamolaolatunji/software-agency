@@ -27,7 +27,7 @@ function index() {
                         Welcome to the Frontend Lab at Buildspire Ng, where creativity meets technology and innovation. Are you ready to embark on an exciting journey into the world of frontend web development? Whether you're a complete beginner taking your first steps or an experienced developer looking to refine your skills, our Frontend Lab is your gateway to a world of possibilities.
                         `} description={`
                             At Buildspire Ng, we understand the importance of the frontend in web development. It's the user interface—the face of your web applications. The Frontend Lab is designed to equip you with the essential skills and knowledge to create stunning, interactive websites that captivate users and leave a lasting impression.
-                        `} students={93} courses={6}>
+                        `} students={93} courses={7}>
                         <Marquee autoFill speed={30} className="frontend--skills labs--skills">
                             <span className="skill">
                                 <img className="skill--image" src="../../svgs/html.svg" alt="html" />
@@ -91,87 +91,32 @@ function index() {
                                 that captivate users and leave a lasting impression.
                             </p>
                         </div>
+
                         <span className="courses__cards">
-                            <div className="courses__figure completed">
-                                <div className="course__image--box image--flex">
-                                    <img src="../../../../svgs/html.svg" alt="frontend dev" />
-                                    <img src="../../../../svgs/css.svg" alt="frontend dev" />
-                                    <img src="../../../../svgs/js.svg" alt="frontend dev" />
-                                </div>
-                                <div className="course--content">
-                                    <p className="content--heading size--med">
-                                        <span className="content--extra">Learn </span>Html, Css and
-                                        JavaScript
-                                    </p>
-                                    <p className="content--text">
-                                        Embark on your journey into the captivating world of frontend web
-                                        development with our comprehensive course in HTML, CSS, and
-                                        JavaScript.
-                                    </p>
-                                    <Link to="/html-css-js-dev" className="profile--button-outline button">Learn More</Link>
-                                </div>
-                                <div className="course--info">
-                                    <p><LuCalendarClock /> 9-weeks | Start: Completed.</p>
-                                    <span>
-                                        <p><TbUsersGroup /> 35 Enrolled</p>
-                                        <p><PiChair /> 50 Slots</p>
-                                        <p><IoPricetagsOutline /> ₦5,000</p>
-                                    </span>
-                                </div>
-                            </div>
-
                             <div className="courses__figure new">
-                                <div className="course__image--box image--flex-md">
-                                    <img src="../../../../svgs/react.svg" alt="frontend dev" />
-                                    <img src="../../../../svgs/vite.svg" alt="frontend dev" />
-                                </div>
-                                <div className="course--content">
-                                    <p className="content--heading size--med">
-                                        <span className="content--extra">React.js </span>For Frontend
-                                        Development.
-                                    </p>
-                                    <p className="content--text">
-                                        Dive into React, a powerful JavaScript library for creating dynamic
-                                        and interactive web interfaces, and enhance your web development
-                                        skills.
-                                    </p>
-                                    <Link to="/react-dev" className="profile--button-outline button">
-                                        Learn More
-                                    </Link>
-                                </div>
-                                <div className="course--info">
-                                    <p><LuCalendarClock /> 6-weeks | Start: March 15th, 2024.</p>
-                                    <span>
-                                        <p><TbUsersGroup /> 2 Enrolled</p>
-                                        <p><PiChair /> 15 Slots</p>
-                                        <p><IoPricetagsOutline /> ₦70,000</p>
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div className="courses__figure">
-                                <div className="course__image--box image--flex-md">
+                                <div className="course__image--box image--flex">
                                     <img src="../../../../svgs/js.svg" alt="frontend dev" />
-                                    <img src="../../../../svgs/ts.svg" alt="frontend dev" />
+                                    <img src="../../../../svgs/css.svg" alt="frontend dev" />
+                                    <img src="../../../../svgs/react.svg" alt="frontend dev" />
+                                    <img src="../../../../svgs/html.svg" alt="frontend dev" />
                                 </div>
                                 <div className="course--content">
                                     <p className="content--heading size--med">
-                                        JavaScript <span className="content--extra">+</span> TypeScript
+                                        The Complete React.js
+                                        <span className="content--extra"> Frontend </span>Development
                                     </p>
                                     <p className="content--text">
-                                        Unlock the power of JavaScript and TypeScript programming. Master
-                                        web app development, both frontend and backend, and supercharge your
-                                        coding skills. Start your journey to mastery today.
+                                        Master the fundamentals of web development and take your skills to the next level with HTML, CSS, JavaScript, and React.js!.
                                     </p>
-                                    <Link to="/js-ts-dev" className="profile--button-outline button">
+                                    <Link to="/complete-frontend-react-dev" className="profile--button-outline button">
                                         Learn More
                                     </Link>
                                 </div>
                                 <div className="course--info">
-                                    <p><LuCalendarClock /> 4-weeks | Start: Coming Soon.</p>
+                                    <p><LuCalendarClock /> 10-weeks | Start: Sept. 10th, 2024.</p>
                                     <span>
-                                        <p><TbUsersGroup /> 0 Enrolled</p>
-                                        <p><PiChair /> 0 Slots</p>
+                                        <p><TbUsersGroup /> 25 Enrolled</p>
+                                        <p><PiChair /> 30 Slots</p>
                                         <p><IoPricetagsOutline /> Paid</p>
                                     </span>
                                 </div>
@@ -206,6 +151,34 @@ function index() {
                                 </div>
                             </div>
 
+                            <div className="courses__figure completed">
+                                <div className="course__image--box image--flex">
+                                    <img src="../../../../svgs/html.svg" alt="frontend dev" />
+                                    <img src="../../../../svgs/css.svg" alt="frontend dev" />
+                                    <img src="../../../../svgs/js.svg" alt="frontend dev" />
+                                </div>
+                                <div className="course--content">
+                                    <p className="content--heading size--med">
+                                        <span className="content--extra">Learn </span>Html, Css and
+                                        JavaScript
+                                    </p>
+                                    <p className="content--text">
+                                        Embark on your journey into the captivating world of frontend web
+                                        development with our comprehensive course in HTML, CSS, and
+                                        JavaScript.
+                                    </p>
+                                    <Link to="/html-css-js-dev" className="profile--button-outline button">Learn More</Link>
+                                </div>
+                                <div className="course--info">
+                                    <p><LuCalendarClock /> 9-weeks | Start: Completed.</p>
+                                    <span>
+                                        <p><TbUsersGroup /> 35 Enrolled</p>
+                                        <p><PiChair /> 50 Slots</p>
+                                        <p><IoPricetagsOutline /> Free</p>
+                                    </span>
+                                </div>
+                            </div>
+
                             <div className="courses__figure">
                                 <div className="course__image--box image--flex-md">
                                     <img src="../../../../svgs/nextjs.svg" alt="frontend dev" />
@@ -235,9 +208,67 @@ function index() {
                                 </div>
                             </div>
 
+                            <div className="courses__figure completed">
+                                <div className="course__image--box image--flex-md">
+                                    <img src="../../../../svgs/react.svg" alt="frontend dev" />
+                                    <img src="../../../../svgs/vite.svg" alt="frontend dev" />
+                                </div>
+                                <div className="course--content">
+                                    <p className="content--heading size--med">
+                                        <span className="content--extra">React.js </span>For Frontend
+                                        Development.
+                                    </p>
+                                    <p className="content--text">
+                                        Dive into React, a powerful JavaScript library for creating dynamic
+                                        and interactive web interfaces, and enhance your web development
+                                        skills.
+                                    </p>
+                                    <Link to="/react-dev" className="profile--button-outline button">
+                                        Learn More
+                                    </Link>
+                                </div>
+                                <div className="course--info">
+                                    <p><LuCalendarClock /> 6-weeks | Start: Completed.</p>
+                                    <span>
+                                        <p><TbUsersGroup /> 10 Enrolled</p>
+                                        <p><PiChair /> 15 Slots</p>
+                                        <p><IoPricetagsOutline /> Paid</p>
+                                    </span>
+                                </div>
+                            </div>
+
                             <div className="courses__figure">
-                                <div className="course__image--box image--flex-bg">
+                                <div className="course__image--box image--flex-md">
+                                    <img src="../../../../svgs/js.svg" alt="frontend dev" />
+                                    <img src="../../../../svgs/ts.svg" alt="frontend dev" />
+                                </div>
+                                <div className="course--content">
+                                    <p className="content--heading size--med">
+                                        JavaScript <span className="content--extra">+</span> TypeScript
+                                    </p>
+                                    <p className="content--text">
+                                        Unlock the power of JavaScript and TypeScript programming. Master
+                                        web app development, both frontend and backend, and supercharge your
+                                        coding skills. Start your journey to mastery today.
+                                    </p>
+                                    <Link to="/js-ts-dev" className="profile--button-outline button">
+                                        Learn More
+                                    </Link>
+                                </div>
+                                <div className="course--info">
+                                    <p><LuCalendarClock /> 4-weeks | Start: Coming Soon.</p>
+                                    <span>
+                                        <p><TbUsersGroup /> 0 Enrolled</p>
+                                        <p><PiChair /> 0 Slots</p>
+                                        <p><IoPricetagsOutline /> Paid</p>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div className="courses__figure">
+                                <div className="course__image--box image--flex">
                                     <img src="../../../../svgs/vue.svg" alt="frontend dev" />
+                                    <img src="../../../../svgs/vite.svg" alt="frontend dev" />
                                 </div>
                                 <div className="course--content">
                                     <p className="content--heading size--med">

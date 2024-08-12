@@ -51,13 +51,7 @@ function GitGithub() {
                                             <i className="fi fi-rr-clock" /> 2hrs / Class
                                         </p>
                                     </span>
-                                    {/* <a href="/checkout.html" class="lab-course-button">Enroll Now</a> */}
-                                    <button
-                                        data-info="Version Control Github Mastery"
-                                        className="lab-course-button not-avaliable"
-                                    >
-                                        Coming Soon
-                                    </button>
+                                    <button className="lab-course-button not-avaliable"> Coming Soon</button>
                                     <span className="lab__section--stat">
                                         <p>
                                             <i className="fi fi-rr-users-alt" />{" "}

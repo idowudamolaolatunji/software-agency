@@ -50,9 +50,7 @@ function HtmlCssJsDev() {
                                             <i className="fi fi-rr-clock" /> 2hrs / Class
                                         </p>
                                     </span>
-                                    <button className="lab-course-button completed">
-                                        Completed
-                                    </button>
+                                    <button className="lab-course-button completed">Completed</button>
                                     <span className="lab__section--stat">
                                         <p>
                                             <i className="fi fi-rr-users-alt" />{" "}
@@ -71,7 +69,7 @@ function HtmlCssJsDev() {
                                 <div className="lab__grids-content-two">
                                     <p>
                                         <i className="fi fi-rr-calendar" /> 9-weeks |
-                                        <span className="content--extra">Class Starts:</span>Oct 20, 2023.
+                                        <span className="content--extra">Class Starts:</span> Completed.
                                     </p>
                                     <p>
                                         <i className="fi fi-rr-book-bookmark" /> Resources, Live mentoring
@@ -99,7 +97,7 @@ function HtmlCssJsDev() {
                                         One-time certificate fee
                                     </p>
                                     <span className="lab-course-price">
-                                        <span>₦5,000</span>
+                                        <span>₦45,000</span>
                                         <p>One-time certificate fee.</p>
                                     </span>
                                 </div>
@@ -108,7 +106,7 @@ function HtmlCssJsDev() {
                     </div>
                 </section>
                 
-<section className="section lab-what__section">
+                <section className="section lab-what__section">
                     <div className="container">
                         <div className="lab__grids">
                             <div className="lab-what-curiculum">

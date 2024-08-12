@@ -3,13 +3,13 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import { useNavigate } from 'react-router-dom'
 import CtaSection from '../../components/CtaSection';
+import { LuArrowUpRight } from 'react-icons/lu';
 
-function ReactDev() {
+function FullReactDev() {
 
-    const navigate = useNavigate();
 
     useEffect(function () {
-        document.title = 'Buildspire Ng | React.js Frontend Development.'
+        document.title = 'Buildspire Ng | The Complete Frontend Development.'
         window.scrollTo(0, 0);
     }, [])
 
@@ -24,44 +24,42 @@ function ReactDev() {
                             <div className="lab__Section-bg-img">
                                 <img src="../../../svgs/react.svg" alt="frontend dev" />
                                 <img src="../../../svgs/vite.svg" alt="frontend dev" />
+                                <img src="../../../svgs/js.svg" alt="frontend dev" />
+                                <img src="../../../svgs/css.svg" alt="frontend dev" />
+
                             </div>
                             <div className="lab__grids">
                                 <div className="lab__grids-content-one">
                                     <p className="content--heading size--med-two">
-                                        <span className="content--extra">React.js </span>Frontend
-                                        Development.
+                                        The Complete React.js
+                                        <span className="content--extra"> Frontend </span>Development
                                     </p>
                                     <p className="lab__section--text">
-                                        Welcome to the course dedicated to frontend development with
-                                        React.js. Whether you're taking your first steps into the dynamic
-                                        world of React.js or an experienced developer seeking to refine
-                                        your skills, this course is your gateway to boundless
-                                        possibilities. Are you ready to delve into the captivating realm
-                                        of React.js, a powerful JavaScript library for building dynamic
-                                        and interactive user interfaces? Throughout this course, you'll
-                                        gain the knowledge and hands-on experience needed to craft
-                                        stunning, responsive web applications.
+                                        Welcome to the course dedicated to frontend development with HTML, CSS, JavaScript, and React.js. Whether you're taking your first steps into the dynamic world of web development or an experienced developer seeking to refine your skills, this course is your gateway to boundless possibilities. Are you ready to delve into the captivating realm of HTML, CSS, JavaScript, and React.js, a powerful combination for building dynamic, interactive, and responsive user interfaces? Throughout this course, you'll gain the knowledge and hands-on experience needed to craft stunning web applications.
                                     </p>
                                     <span className="lab__section--stat lab">
                                         <p>
-                                            <i className="fi fi-rr-book-open-reader" /> 17 Lectures
+                                            <i className="fi fi-rr-book-open-reader" /> 24 Lectures
                                         </p>
                                         <p>
-                                            <i className="fi fi-rr-diagram-project" /> 3 Live Projects
+                                            <i className="fi fi-rr-diagram-project" /> 4 Live Projects
                                         </p>
                                         <p>
-                                            <i className="fi fi-rr-clock" /> 1½hrs / Class
+                                            <i className="fi fi-rr-clock" /> 1hrs / Class
                                         </p>
                                     </span>
-                                    <button className="lab-course-button not-avaliable"> Coming Soon</button>
+                                    <a href="https://docs.google.com/forms/d/1K9hPXe722LukdYdpd6lFS7Ap4t7rPoWh8nkTRsqUJDE/prefill" className="lab-course-button avaliable">
+                                        Enroll Now!
+                                        <LuArrowUpRight className='icon' />
+                                    </a>
                                     <span className="lab__section--stat">
                                         <p>
                                             <i className="fi fi-rr-users-alt" />{" "}
-                                            <span className="content--extra">10 </span>Enrolled
+                                            <span className="content--extra">20 </span>Enrolled
                                         </p>
                                         <p>
-                                            <i className="fi fi-rr-chair-office" /> 15 Slots /{" "}
-                                            <span className="content--extra">5</span> Left
+                                            <i className="fi fi-rr-chair-office" /> 35 Slots /{" "}
+                                            <span className="content--extra">15</span> Left
                                         </p>
                                         <p>
                                             <i className="fi fi-rr-tags" />
@@ -71,17 +69,14 @@ function ReactDev() {
                                 </div>
                                 <div className="lab__grids-content-two">
                                     <p>
-                                        <i className="fi fi-rr-calendar" /> 6-weeks |
-                                        <span className="content--extra">Start:</span>Completed.
+                                        <i className="fi fi-rr-calendar" /> 10-weeks |
+                                        <span className="content--extra">Start:</span>September 10th, 2024.
                                     </p>
                                     <p>
-                                        <i className="fi fi-rr-book-bookmark" /> Resources, Live mentoring
-                                        and re-recorded class videos to help you through the learning
-                                        period.
+                                        <i className="fi fi-rr-book-bookmark" /> Resources, Live mentoring and re-recorded class videos to help you through the learning period.
                                     </p>
                                     <p>
-                                        <i className="fi fi-rr-code-simple" /> Coding challenges to help
-                                        you learn better.
+                                        <i className="fi fi-rr-code-simple" /> Coding challenges to help you learn better.
                                     </p>
                                     <p>
                                         <i className="fi fi-rr-book-open-cover" /> Final coding test.
@@ -92,16 +87,16 @@ function ReactDev() {
                                     </p>
 
                                     <p>
-                                        <i className="fi fi-rr-circle-star" />
-                                        Rewards, interships, and free advance courses for best students.
+                                        <i className="fi fi-rr-circle-star" /> Rewards, interships, and free advance courses for best students.
                                     </p>
                                     <p>
                                         <i className="fi fi-rr-funnel-dollar" />
                                         One-time fee.
                                     </p>
                                     <span className="lab-course-price">
-                                        <span>₦70,000</span>
-                                        <p>One-time fee + certificate fee.</p>
+                                        <span>₦35,000</span>
+                                        <span className='slashed-price'>₦80,000</span>
+                                        <p>One-time fee</p>
                                     </span>
                                 </div>
                             </div>
@@ -119,44 +114,33 @@ function ReactDev() {
                                     <span className="content--extra">Outcome </span>In this course
                                 </p>
                                 <ul>
-                                    <li>
-                                        By the end of this course, students will have acquired proficiency
-                                        in React.js, a powerful JavaScript library for building dynamic
-                                        and interactive user interfaces. They will be able to create
-                                        modern web applications using React.js, taking advantage of its
-                                        component-based architecture.
+                                    <li> By the end of this course, students will have acquired proficiency in building dynamic and interactive web applications using HTML, CSS, JavaScript, and React.js. They will be able to create modern web applications, taking advantage of HTML's structuring capabilities, CSS's styling power, JavaScript's dynamic functionality, and React's component-based architecture.
+
                                     </li>
                                     <li>
-                                        Students will become skilled in using modern development tools
-                                        such as Vite and Webpack for bundling JavaScript, Babel for
-                                        transpiling, and npm for package management. They will learn to
-                                        set up efficient development environments for React projects.
+                                    Students will become skilled in using modern development tools such as Vite and Webpack for bundling JavaScript, Babel for transpiling, and npm for package management. They will learn to set up efficient development environments for front-end projects, leveraging HTML, CSS, and JavaScript
                                     </li>
                                     <li>
-                                        The course will equip students with the skills to design
-                                        responsive and visually appealing user interfaces using Tailwind
-                                        CSS, a utility-first CSS framework. They will learn how to create
-                                        well-structured and styled components.
+                                        With a strong foundation in HTML, CSS, and JavaScript, students will dive deeper into React.js, learning how to build reusable UI components, manage state and props, and optimize application performance. They will explore advanced React concepts, such as hooks, context, and routing, to create complex and scalable applications.
                                     </li>
                                     <li>
-                                        Students will gain a strong understanding of state management in
-                                        React applications using Redux. They'll learn how to manage
-                                        complex application states efficiently, making their applications
-                                        more maintainable and scalable.
+                                        Students will gain hands-on experience building responsive and interactive user interfaces using React.js, including designing and implementing intuitive UI components, handling user input and events, and integrating with external APIs
                                     </li>
                                     <li>
-                                        This course will introduce students to Git and GitHub for version
-                                        control and collaboration. They will learn how to effectively
-                                        manage code repositories, collaborate with others on projects, and
-                                        contribute to open-source development.
+                                        This course will introduce students to Git and GitHub for version control and collaboration. They will learn how to effectively manage code repositories, collaborate with others on projects, and contribute to open-source development, applying their HTML, CSS, JavaScript, and React.js skills.
                                     </li>
                                 </ul>
+
+                                <a target='_blank' href="https://docs.google.com/forms/d/1K9hPXe722LukdYdpd6lFS7Ap4t7rPoWh8nkTRsqUJDE/prefill" style={{ display: 'inline-block', marginTop: '2rem' }} className="lab-course-button avaliable">
+                                    Enroll Now!
+                                </a>
                             </div>
                             <div className="lab-what__images">
                                 <img src="../../../svgs/react.svg" alt="frontend dev" />
                                 <img src="../../../svgs/redux.svg" alt="frontend dev" />
+                                <img src="../../../svgs/js.svg" alt="frontend dev" />
                                 <img src="../../../svgs/vite.svg" alt="frontend dev" />
-                                <img src="../../../svgs/tailwind.svg" alt="frontend dev" />
+                                <img src="../../../svgs/css.svg" alt="frontend dev" />
                                 <img src="../../../svgs/github.svg" alt="frontend dev" />
                                 <img src="../../../svgs/npm.svg" alt="frontend dev" />
                                 <img src="../../../svgs/git.svg" alt="frontend dev" />
@@ -173,4 +157,4 @@ function ReactDev() {
     )
 }
 
-export default ReactDev
+export default FullReactDev

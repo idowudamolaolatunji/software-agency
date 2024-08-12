@@ -49,6 +49,7 @@ import PythonDev from "./pages/Courses/PythonDev";
 import ReactDev from "./pages/Courses/ReactDev";
 import ReactNativeDev from "./pages/Courses/ReactNativeDev";
 import VueDev from "./pages/Courses/VueDev";
+import FullReactDev from "./pages/Courses/FullReactDev";
 
 
 function App() {
@@ -122,6 +123,7 @@ function App() {
                         <Route path="/react-dev" element={<ReactDev />}></Route>
                         <Route path="/react-native-dev" element={<ReactNativeDev />}></Route>
                         <Route path="/vue-dev" element={<VueDev />}></Route>
+                        <Route path="/complete-frontend-react-dev" element={<FullReactDev />}></Route>
                     </Routes>
                 </BrowserRouter>
             </Suspense>

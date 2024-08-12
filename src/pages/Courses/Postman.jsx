@@ -47,13 +47,7 @@ function Postman() {
                                             <i className="fi fi-rr-clock" /> 2hrs / Class
                                         </p>
                                     </span>
-                                    {/* <a href="/checkout.html" class="lab-course-button">Enroll Now</a> */}
-                                    <button
-                                        data-info="Postman Api Testing"
-                                        className="lab-course-button not-avaliable"
-                                    >
-                                        Coming Soon
-                                    </button>
+                                    <button className="lab-course-button not-avaliable"> Coming Soon</button>
                                     <span className="lab__section--stat">
                                         <p>
                                             <i className="fi fi-rr-users-alt" />{" "}
@@ -109,7 +103,7 @@ function Postman() {
                     </div>
                 </section>
                 
-<section className="section lab-what__section">
+                <section className="section lab-what__section">
                     <div className="container">
                         <div className="lab__grids">
                             <div className="lab-what-curiculum">

@@ -289,7 +289,11 @@ input::-webkit-inner-spin-button {
 	grid-template-columns: 1fr 1fr;
 	gap: 4rem;
 }
-
+.slashed-price {
+	font-size: 1.6rem !important;
+	opacity: .65;
+	text-decoration: line-through;
+}
 
 
 /* ============================================= */

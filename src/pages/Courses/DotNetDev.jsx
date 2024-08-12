@@ -51,12 +51,7 @@ function DotNetDev() {
                                         </p>
                                     </span>
                                     {/* <a href="/checkout.html" class="lab-course-button">Enroll Now</a> */}
-                                    <button
-                                        data-info="Comprehensive .NET Core + mySQL"
-                                        className="lab-course-button not-avaliable"
-                                    >
-                                        Coming Soon
-                                    </button>
+                                    <button className="lab-course-button not-avaliable"> Coming Soon</button>
                                     <span className="lab__section--stat">
                                         <p>
                                             <i className="fi fi-rr-users-alt" />{" "}

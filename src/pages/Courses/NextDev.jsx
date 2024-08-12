@@ -50,13 +50,7 @@ function NextDev() {
                                             <i className="fi fi-rr-clock" /> 2½hrs / Class
                                         </p>
                                     </span>
-                                    {/* <a href="/checkout.html" class="lab-course-button">Enroll Now</a> */}
-                                    <button
-                                        data-info="The Ultimate Next.js Development"
-                                        className="lab-course-button not-avaliable"
-                                    >
-                                        Coming Soon
-                                    </button>
+                                    <button className="lab-course-button not-avaliable"> Coming Soon</button>
                                     <span className="lab__section--stat">
                                         <p>
                                             <i className="fi fi-rr-users-alt" />{" "}
