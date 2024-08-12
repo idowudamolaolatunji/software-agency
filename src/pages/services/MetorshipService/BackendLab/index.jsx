@@ -112,7 +112,7 @@ function index() {
                                     <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a1/512.webp" type="image/webp" />
                                     <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a1/512.gif" alt="💡" width="12" height="12" />
                                 </picture>
-                            </p><p className="section__subtitle">Lab Courses</p>
+                            </p>
                             <h3 className="section__heading">Backend Lab Courses For You.</h3>
                             <p className="section__text">
                                 Here are some of Buildspire Ng mentorship transformative virtual courses awaiting
