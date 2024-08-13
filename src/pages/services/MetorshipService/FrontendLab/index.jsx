@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 
 import { TbUsersGroup } from 'react-icons/tb'
 import { PiChair } from 'react-icons/pi'
-import { IoPricetagsOutline } from 'react-icons/io5'
+import { IoLogoWhatsapp, IoPricetagsOutline } from 'react-icons/io5'
 import { LuCalendarClock, LuDot } from 'react-icons/lu'
 import { Link } from 'react-router-dom'
 import Marquee from 'react-fast-marquee'
