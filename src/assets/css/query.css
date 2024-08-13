@@ -312,7 +312,9 @@
     .lab__text {
         text-align: center;
     }
-
+    .testimonial__grid {
+        grid-template-columns: 1fr;
+    }
 
     /* ============================================= */
     /* SERVICE AND HOW SECTION */
