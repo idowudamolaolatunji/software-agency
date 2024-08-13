@@ -10,6 +10,7 @@ import Footer from '../../../../components/Footer';
 import Header from '../../../../components/Header';
 import LabHeroSection from '../../../../components/LabHeroSection';
 import CtaSection from '../../../../components/CtaSection';
+import StudentTestimonialSection from '../../../../components/StudentTestimonialSection';
 
 
 function index() {
@@ -172,11 +173,7 @@ function index() {
             </section>
 
 
-
-
-
-            {/* <TestimonialSection />
-            <PartnershipSection /> */}
+            <StudentTestimonialSection />
             <CtaSection />
             <Footer />
         </>

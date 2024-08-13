@@ -4,6 +4,7 @@ import Footer from '../../components/Footer'
 import { useNavigate } from 'react-router-dom'
 import CtaSection from '../../components/CtaSection';
 import { LuArrowUpRight } from 'react-icons/lu';
+import StudentTestimonialSection from '../../components/StudentTestimonialSection';
 
 function FullReactDev() {
 
@@ -26,7 +27,7 @@ function FullReactDev() {
                                 <img src="../../../svgs/vite.svg" alt="frontend dev" />
                                 <img src="../../../svgs/js.svg" alt="frontend dev" />
                                 <img src="../../../svgs/css.svg" alt="frontend dev" />
-
+                                <img src="../../../svgs/html.svg" alt="frontend dev" />
                             </div>
                             <div className="lab__grids">
                                 <div className="lab__grids-content-one">
@@ -137,7 +138,7 @@ function FullReactDev() {
                             </div>
                             <div className="lab-what__images">
                                 <img src="../../../svgs/react.svg" alt="frontend dev" />
-                                <img src="../../../svgs/redux.svg" alt="frontend dev" />
+                                <img src="../../../svgs/html.svg" alt="frontend dev" />
                                 <img src="../../../svgs/js.svg" alt="frontend dev" />
                                 <img src="../../../svgs/vite.svg" alt="frontend dev" />
                                 <img src="../../../svgs/css.svg" alt="frontend dev" />
@@ -151,6 +152,7 @@ function FullReactDev() {
             </main>
 
 
+            <StudentTestimonialSection />
             <CtaSection />
             <Footer />
         </>

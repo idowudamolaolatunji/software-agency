@@ -743,6 +743,15 @@ a.cta--btn {
 
 
 
+.testimonial__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8rem;
+    margin-top: 4.8rem;
+}
+
+
+
 /*  */
 .lab__grid {
     display: grid;
