@@ -1,6 +1,6 @@
 import React from 'react'
 
-function StudentTestimonialSection() {
+function StudentTestimonialSection({ children }) {
     return (
         <section className='section' style={{ paddingBottom: "4rem" }}>
             <div className="container">
@@ -12,6 +12,8 @@ function StudentTestimonialSection() {
                 <div className="testimonial__grid">
                     <iframe style={{ height: '50rem', width: "100%", borderRadius: "0.6rem" }} src="https://youtube.com/embed/dlfftIPLeJE?si=t9n0pvo6MGe5i6Fs" frameborder="0"></iframe>
                 </div>
+
+                {children}
             </div>
         </section>
     )

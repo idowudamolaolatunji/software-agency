@@ -749,7 +749,24 @@ a.cta--btn {
     gap: 8rem;
     margin-top: 4.8rem;
 }
+a.whatsapp--btn {
+    margin-top: 2.4rem;
+    padding: 1.2rem 1.8rem;
+    border-radius: .4rem;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+    color: var(--text-color);
+    border: .14rem solid var(--text-color);
+    transition: all .35s;
+}
+a.whatsapp--btn:hover {
+    border-color: transparent;
+    background-color: #6b18eb;
+    color: #fff;
+}
 
 
 /*  */

@@ -63,9 +63,9 @@ function Footer() {
                             </Link>
                         </li>
                         <li>
-                            <Link to="mailto:buildspire@gmail.com">
+                            <Link to="mailto:buildspireng@gmail.com">
                                 <SiGmail className="icon" />
-                                <p>buildspire@gmail.com</p>
+                                <p>buildspireng@gmail.com</p>
                             </Link>
                         </li>
                     </ul>

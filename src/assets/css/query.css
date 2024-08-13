@@ -415,6 +415,9 @@
     .lab__section--stat {
         flex-wrap: wrap;
     }
+    .lab-what__images img {
+        width: 8rem;
+    }
 
 
     /* ============================================= */
