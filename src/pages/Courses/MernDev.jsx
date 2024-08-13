@@ -4,6 +4,8 @@ import Footer from '../../components/Footer'
 // import CheckoutModal from '../../components/CheckoutModal';
 import { useNavigate } from 'react-router-dom';
 import CtaSection from '../../components/CtaSection';
+import WhySection from '../../components/WhySection';
+import StudentTestimonialSection from '../../components/StudentTestimonialSection';
 
 function MernDev() {
     // const [showCheckOutModal, setShowCheckOutModal] = useState(false);
@@ -175,6 +177,9 @@ function MernDev() {
                 </section>
             </main>
 
+            
+            <WhySection />
+            <StudentTestimonialSection />
             <CtaSection />
             <Footer />
         </>

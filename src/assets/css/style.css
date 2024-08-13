@@ -537,7 +537,7 @@ a.figure--link {
 /* ====================================== */
 /* PORTFOLIO SECTION */
 /* ====================================== */
-.portfolio__section {
+.portfolio__section, .why-choose-us__section {
     /* background-color: #0e121d;
     backdrop-filter: blur(6px);
     background-image: radial-gradient(circle closest-side, #0f0f37 60%, #010104); */
@@ -740,6 +740,35 @@ a.cta--btn {
 /* ================================================================== */
 /* ================================================================== */
 /* ================================================================== */
+
+
+.why__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.8rem;
+    margin-top: 4.8rem;
+}
+.why--figure {
+    transition: all .35s;
+    padding: 2.4rem;
+    border: .2rem solid rgba(255,255,255,.8);
+    border-radius: .4rem;
+    background-color: #e6e6e627;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+.why--figure:hover {
+    transform: translateY(-.4rem) scale(1.05);
+    box-shadow: 1rem 1rem 4rem rgba(255,255,255,.35);
+}
+.why--title {
+    font-size: 1.8rem;
+    line-height: 1.3;
+}
+.why--image {
+    height: 8rem;
+    margin-bottom: 2.4rem;
+}
 
 
 

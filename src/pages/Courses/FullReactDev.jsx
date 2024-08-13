@@ -6,6 +6,7 @@ import CtaSection from '../../components/CtaSection';
 import { LuArrowUpRight } from 'react-icons/lu';
 import StudentTestimonialSection from '../../components/StudentTestimonialSection';
 import { IoLogoWhatsapp } from 'react-icons/io5';
+import WhySection from '../../components/WhySection';
 
 function FullReactDev() {
 
@@ -152,7 +153,7 @@ function FullReactDev() {
                 </section>
             </main>
 
-
+            <WhySection />
             <StudentTestimonialSection>
                 <div className="" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
                     <a className='whatsapp--btn'target="_blank" href="https://wa.me/2347047949344?text=Hi%2C%20I%27m%20interested%20in%20the%20frontend%20development%20program">Chat us on Whatsapp <IoLogoWhatsapp /></a>

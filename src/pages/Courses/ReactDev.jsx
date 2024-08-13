@@ -3,6 +3,8 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import { useNavigate } from 'react-router-dom'
 import CtaSection from '../../components/CtaSection';
+import WhySection from '../../components/WhySection';
+import StudentTestimonialSection from '../../components/StudentTestimonialSection';
 
 function ReactDev() {
 
@@ -167,6 +169,8 @@ function ReactDev() {
             </main>
 
 
+            <WhySection />
+            <StudentTestimonialSection />
             <CtaSection />
             <Footer />
         </>

@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import CtaSection from '../../components/CtaSection'
+import WhySection from '../../components/WhySection'
+import StudentTestimonialSection from '../../components/StudentTestimonialSection'
 
 function VueDev() {
 
@@ -162,6 +164,9 @@ function VueDev() {
                 </section>
             </main>
 
+
+            <WhySection />
+            <StudentTestimonialSection />
             <CtaSection />
             <Footer />
         </>

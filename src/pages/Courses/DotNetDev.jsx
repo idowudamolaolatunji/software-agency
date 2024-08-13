@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import CtaSection from '../../components/CtaSection';
+import StudentTestimonialSection from '../../components/StudentTestimonialSection';
+import WhySection from '../../components/WhySection';
 
 function DotNetDev() {
 
@@ -161,6 +163,8 @@ function DotNetDev() {
                 </section>
             </main>
 
+            <WhySection />
+            <StudentTestimonialSection />
             <CtaSection />
             <Footer />
 
