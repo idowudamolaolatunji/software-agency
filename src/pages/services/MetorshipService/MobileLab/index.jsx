@@ -11,6 +11,7 @@ import Header from '../../../../components/Header';
 import LabHeroSection from '../../../../components/LabHeroSection';
 import CtaSection from '../../../../components/CtaSection';
 import StudentTestimonialSection from '../../../../components/StudentTestimonialSection';
+import WhySection from '../../../../components/WhySection';
 
 
 function index() {
@@ -173,6 +174,7 @@ function index() {
             </section>
 
 
+            <WhySection />
             <StudentTestimonialSection />
             <CtaSection />
             <Footer />
