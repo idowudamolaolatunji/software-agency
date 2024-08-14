@@ -12,6 +12,7 @@
     /* #f9f9fb; */
     --section-figure: #f9f9f9;
     --section-sub-figure: rgba(255, 255, 255, 0.6);
+    --section-sub-figure-2: #eee;
     --section-grey: #eaeaf2;
     --section-grey-alpha: #84848471;
     --section-inverse-text: #222;
@@ -37,6 +38,7 @@
     --section-inverse-text: #eee;
     --section-figure: #262626;
     --section-sub-figure: #262626;
+    --section-sub-figure-2: #262626;
     --main-border-color: #e3d0ff;
 }
 
@@ -543,6 +545,7 @@ a.figure--link {
     background-image: radial-gradient(circle closest-side, #0f0f37 60%, #010104); */
     background-image: radial-gradient(circle closest-side, #6d46a76d 10%, #111);
     color: #fff;
+    /* backdrop-filter: blur(6px); */
 }
 .portfolio--container {
     display: grid;
