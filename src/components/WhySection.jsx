@@ -19,10 +19,7 @@ function WhySection() {
                         At Buildspire Ng, we are your gateway to a transformative coding
                         journey. Our commitment to providing quality education meets
                         affordability, ensuring that you can launch your career in tech without
-                        breaking the bank. What sets us apart is our vibrant and supportive
-                        community of learners, mentors, and industry experts who are passionate
-                        about your success. We believe in nurturing talent and opening doors to
-                        a world of opportunities in the booming tech industry. Choose Buildspire today, and embark on a path to skill mastery and career growth in
+                        breaking the bank. Choose Buildspire today, and embark on a path to skill mastery and career growth in
                         the dynamic world of coding and web development.
                     </p>
                 </div>
