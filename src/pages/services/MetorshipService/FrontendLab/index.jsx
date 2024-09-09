@@ -115,7 +115,7 @@ function index() {
                                     </Link>
                                 </div>
                                 <div className="course--info">
-                                    <p><LuCalendarClock /> 10-weeks | Start: Sept. 10th, 2024.</p>
+                                    <p><LuCalendarClock /> 10-weeks | Start: Oct. 14th, 2024.</p>
                                     <span>
                                         <p><TbUsersGroup /> 25 Enrolled</p>
                                         <p><PiChair /> 30 Slots</p>
