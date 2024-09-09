@@ -73,7 +73,7 @@ function FullReactDev() {
                                 <div className="lab__grids-content-two">
                                     <p style={{ display: "block" }}>
                                         <i className="fi fi-rr-calendar" />&nbsp;&nbsp;10-weeks |{" "}
-                                        <span className="content--extra">Start:{" "}</span>September 10th, 2024.
+                                        <span className="content--extra">Start:{" "}</span>October 14th, 2024.
                                     </p>
                                     <p>
                                         <i className="fi fi-rr-book-bookmark" /> Resources, Live mentoring and re-recorded class videos to help you through the learning period.
@@ -97,7 +97,7 @@ function FullReactDev() {
                                         One-time fee.
                                     </p>
                                     <span className="lab-course-price">
-                                        <span>₦35,000</span>
+                                        <span>₦40,000</span>
                                         <span className='slashed-price'>₦80,000</span>
                                         <p>One-time fee</p>
                                     </span>
