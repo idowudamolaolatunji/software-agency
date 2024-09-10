@@ -131,6 +131,10 @@ function App() {
                 </BrowserRouter>
             </Suspense>
 
+            {/* Whatsapp Widget */}
+            {width >= 450 && (
+                <div class="elfsight-app-c3877b3a-571c-4ee0-b2cc-5ff2a1573ae3" data-elfsight-app-lazy></div>
+            )}
 
             {showArrowToTop && (
                 <ArrowToTop y={y} />
