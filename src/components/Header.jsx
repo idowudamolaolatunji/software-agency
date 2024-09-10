@@ -206,9 +206,9 @@ function Header() {
                             </div>
 
                             <div className="sidebar--end">
-                                <Link to="https://www.linkedin.com/" target='_blank'><IoLogoLinkedin className="icon" /></Link>
-                                <Link to="https://www.instagram.com/" target='_blank'><IoLogoInstagram className="icon" /></Link>
-                                <Link to="https://www.x.com/" target='_blank'><RiTwitterXLine className="icon" /></Link>
+                                <Link to="https://www.linkedin.com/company/buildspireng/" target='_blank'><IoLogoLinkedin className="icon" /></Link>
+                                <Link to="https://www.instagram.com/buildspire_ng" target='_blank'><IoLogoInstagram className="icon" /></Link>
+                                <Link to="https://twitter.com/buildspire_ng" target='_blank'><RiTwitterXLine className="icon" /></Link>
                                 <Link to="mailto:info@buildspire.ng"><SiGmail className="icon" /></Link>
                                 <Link to="tel:+2349057643470"><RiPhoneFill className="icon" /></Link>
                             </div>

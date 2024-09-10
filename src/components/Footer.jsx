@@ -45,13 +45,13 @@ function Footer() {
                     <p className="footer--heading">Contacts & Socials</p>
                     <ul className="footer--lists">
                         <span className='footer--socials'>
-                            <Link to="https://www.linkedin.com/" target='_blank'>
+                            <Link to="https://www.linkedin.com/company/buildspireng/" target='_blank'>
                                 <IoLogoLinkedin className='icon' />
                             </Link>
-                            <Link to="https://www.instagram.com/" target='_blank'>
+                            <Link to="https://www.instagram.com/buildspire_ng" target='_blank'>
                                 <IoLogoInstagram className="icon" />
                             </Link>
-                            <Link to="https://www.x.com/" target='_blank'>
+                            <Link to="https://twitter.com/buildspire_ng" target='_blank'>
                                 <RiTwitterXLine className="icon" />
                             </Link>
                         </span>
