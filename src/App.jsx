@@ -4,6 +4,8 @@ import { useWindowScroll, useWindowSize } from 'react-use';
 import ArrowToTop from './components/ArrowToTop';
 import AnimatedCursor from 'react-animated-cursor';
 import Spinner from './components/Spinner';
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
+import logo from './assets/images/logo/main-logo-transparent.png';
 
 
 const Home = lazy(() => import('./pages/home'));
@@ -132,9 +134,14 @@ function App() {
             </Suspense>
 
             {/* Whatsapp Widget */}
-            {width >= 450 && (
-                <div class="elfsight-app-c3877b3a-571c-4ee0-b2cc-5ff2a1573ae3" data-elfsight-app-lazy></div>
-            )}
+            <FloatingWhatsApp
+                phoneNumber="+2348082646718"
+                accountName="Buildspire Ng"
+                chatMessage="Welcome to Buildspire Ng, How can we help you?"
+                style={{ fontSize: "2rem", fontFamily: "inherit", fontWeight: "500" }}
+                avatar={logo}
+                allowEsc
+            />
 
             {showArrowToTop && (
                 <ArrowToTop y={y} />
