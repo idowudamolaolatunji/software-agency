@@ -5,7 +5,7 @@ function contactForm() {
         <section className='section'>
             <div className="container">
                 <h3 className="contact__heading">Let us Have a Conversation.</h3>
-                <form className="contact__form" action="https://formspree.io/f/xjkbobzz" method="post">
+                <form className="contact__form" action="https://formspree.io/f/xyegnved" method="post">
                     <div className="form--flex">
                         <div className="form--item">
                             <label className="form--label">Fullname</label>
