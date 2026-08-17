@@ -57,9 +57,9 @@ function Footer() {
                         </span>
                         
                         <li>
-                            <Link to="tel:+2349057643470">
+                            <Link to="tel:+2348082646718">
                                 <RiPhoneFill className="icon" />
-                                <p>+234 905 7643 470</p>
+                                <p>+234 808 2646 718</p>
                             </Link>
                         </li>
                         <li>

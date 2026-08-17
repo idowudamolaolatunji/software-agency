@@ -7,16 +7,16 @@ import CtaSection from '../../components/CtaSection'
 function index() {
 
     useEffect(function () {
-        document.title = 'Ng- Our Services'
+        document.title = 'Buildspire Ng - Our Services'
     }, []);
 
     return (
-        <>
+        <React.Fragment>
             <Header />
             <ServiceSection page={true} />
             <CtaSection />
             <Footer />
-        </>
+        </React.Fragment>
     )
 }
 

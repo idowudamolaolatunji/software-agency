@@ -4,6 +4,7 @@ import Footer from '../../components/Footer'
 import CtaSection from '../../components/CtaSection'
 import WhySection from '../../components/WhySection'
 import StudentTestimonialSection from '../../components/StudentTestimonialSection'
+import { LuArrowUpRight } from 'react-icons/lu'
 
 function PhpDev() {
 
@@ -52,7 +53,10 @@ function PhpDev() {
                                             <i className="fi fi-rr-clock" /> 2hrs / Class
                                         </p>
                                     </span>
-                                    <button className="lab-course-button not-avaliable"> Coming Soon</button>
+                                    <a target='_blank' href="https://wa.me/2348082646718?text=Hi%2C%20I%27m%20interested%20in%20the%20PHP%20%2B%20MySQL%20Mastery%20course" className="lab-course-button avaliable">
+                                        Enroll Now!
+                                        <LuArrowUpRight className='icon' />
+                                    </a>
                                     <span className="lab__section--stat">
                                         <p>
                                             <i className="fi fi-rr-users-alt" />{" "}
@@ -71,7 +75,7 @@ function PhpDev() {
                                 <div className="lab__grids-content-two">
                                     <p>
                                         <i className="fi fi-rr-calendar" /> 10-weeks |
-                                        <span className="content--extra">Start:</span>Coming Soon.
+                                        <span className="content--extra">Start:</span>Soon.
                                     </p>
                                     <p>
                                         <i className="fi fi-rr-book-bookmark" /> Resources, Live mentoring

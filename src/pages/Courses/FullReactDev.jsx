@@ -51,7 +51,7 @@ function FullReactDev() {
                                             <i className="fi fi-rr-clock" /> 1hrs / Class
                                         </p>
                                     </span>
-                                    <a target='_blank' href="https://forms.gle/fACJYD76kFNhz8rM9" className="lab-course-button avaliable">
+                                    <a target='_blank' href="https://wa.me/2348082646718?text=Hi%2C%20I%27m%20interested%20in%20the%20Complete%20React.js%20Frontend%20Development%20course" className="lab-course-button avaliable">
                                         Enroll Now!
                                         <LuArrowUpRight className='icon' />
                                     </a>
@@ -134,7 +134,7 @@ function FullReactDev() {
                                     </li>
                                 </ul>
 
-                                <a target='_blank' href="https://forms.gle/fACJYD76kFNhz8rM9" style={{ display: 'inline-block', marginTop: '2rem' }} className="lab-course-button avaliable">
+                                <a target='_blank' href="https://wa.me/2348082646718?text=Hi%2C%20I%27m%20interested%20in%20the%20Complete%20React.js%20Frontend%20Development%20course" style={{ display: 'inline-block', marginTop: '2rem' }} className="lab-course-button avaliable">
                                     Enroll Now!
                                 </a>
                             </div>
