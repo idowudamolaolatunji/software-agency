@@ -1116,6 +1116,31 @@ a.whatsapp--btn:hover {
     color: #979797;
     font-size: 1.2rem;
 }
+.form--phone-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 2px solid transparent;
+    border-radius: .4rem;
+    background-color: var(--shadow-color-main);
+    transition: all .35s;
+}
+.form--phone-input:focus-within {
+    border: 2px solid rgba(255,255,255,.5);
+}
+.form--phone-prefix {
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    color: var(--sub-text-color);
+}
+.form--phone-input .form--input {
+    background-color: transparent;
+    border: none;
+}
+.form--phone-input .form--input:focus {
+    border: none;
+    outline: none;
+}
 textarea.form--textarea {
     height: 26rem;
     resize: none;
